@@ -1,0 +1,1036 @@
+{
+  "version": "2.0",
+  "verified_at": "2026-06-17 22:01:02",
+  "input_fingerprint": "3618e4ccdad355e8421355ea1c3c84246b14709854e57b309516e7f5d11d1489",
+  "input_hashes": {
+    "combined_daily": "e9476a1a37839ef5c00e0d51beef251bae3633cb72113e2536918376705d4b83",
+    "etf_universe": "4745f4bed663f1e860148713394fa3dc15f556f9238db799e24ef9d21e5f94ad",
+    "u7_strategy": "ddc0b33ded61aff2ab1e76f673b24aac2cf7432a4fde62e20313a872ff2e472e"
+  },
+  "config": {
+    "hold_days": 20,
+    "sector_filter": "always",
+    "cold_threshold": -3.0,
+    "ma_align": "20>60",
+    "vol_min_ratio": 1.2,
+    "rsi_min": null,
+    "stop_loss_pct": null,
+    "stop_ma": null,
+    "min_sectors": 4,
+    "conf_scale": false,
+    "momentum_weights": {
+      "ret60": 1.0,
+      "vol20": 0.2,
+      "trend": 0.2
+    },
+    "max_positions": {
+      "bull": 3,
+      "neutral": 5,
+      "bear": 2
+    },
+    "exit_rules": "pure_rebalance",
+    "disaster_exit_pct": -12
+  },
+  "output_signature": "6f9c6d17121c6b88648392004b2cd463e563d8bafb9661a7be7d72b577b5cf98",
+  "trade_ledger_hash": "752709a71b86c8a5b52f2cf59a86b3139162a67a03d68a968f60d0c96aacade7",
+  "metrics_active": {
+    "total_ret": 163.5,
+    "ann": 63.0,
+    "dd": 9.7,
+    "sharpe": 1.55,
+    "win_rate": 72.0,
+    "active_windows": 25,
+    "total_windows": 37,
+    "alpha": 146.0
+  },
+  "metrics_calendar": {
+    "total_ret": 163.5,
+    "ann": 39.1,
+    "dd": 9.7,
+    "sharpe": 1.21,
+    "win_rate": 48.6,
+    "active_windows": 25,
+    "total_windows": 37,
+    "alpha": 146.0
+  },
+  "bench_total": 17.5,
+  "regime_counts": {
+    "bear": 16,
+    "bull": 16,
+    "neutral": 5
+  },
+  "trade_count": 25,
+  "total_windows": 37,
+  "trade_ledger": [
+    {
+      "window": 0,
+      "date": "2023-06-01",
+      "regime": "bear",
+      "conf": 0.12,
+      "avg_return": 0,
+      "trades": []
+    },
+    {
+      "window": 1,
+      "date": "2023-07-03",
+      "regime": "bull",
+      "conf": 0.55,
+      "avg_return": 4.82,
+      "trades": [
+        {
+          "code": "159985",
+          "name": "豆粕ETF华夏",
+          "sector": "其他",
+          "entry_date": "2023-07-03",
+          "entry_price": 2.052,
+          "score": 8.538091842614538,
+          "exit_date": "2023-07-31",
+          "exit_price": 2.151,
+          "ret": 4.82
+        }
+      ]
+    },
+    {
+      "window": 2,
+      "date": "2023-07-31",
+      "regime": "bull",
+      "conf": 0.6,
+      "avg_return": -1.83,
+      "trades": [
+        {
+          "code": "159985",
+          "name": "豆粕ETF华夏",
+          "sector": "其他",
+          "entry_date": "2023-07-31",
+          "entry_price": 2.151,
+          "score": 21.26436222535144,
+          "exit_date": "2023-08-28",
+          "exit_price": 2.357,
+          "ret": 9.58
+        },
+        {
+          "code": "513130",
+          "name": "恒生科技ETF华泰柏瑞",
+          "sector": "港股",
+          "entry_date": "2023-07-31",
+          "entry_price": 0.619,
+          "score": 18.085627003366582,
+          "exit_date": "2023-08-28",
+          "exit_price": 0.564,
+          "ret": -8.89
+        },
+        {
+          "code": "513050",
+          "name": "中概互联网ETF易方达",
+          "sector": "中概互联",
+          "entry_date": "2023-07-31",
+          "entry_price": 1.118,
+          "score": 6.946070470675038,
+          "exit_date": "2023-08-28",
+          "exit_price": 1.049,
+          "ret": -6.17
+        }
+      ]
+    },
+    {
+      "window": 3,
+      "date": "2023-08-28",
+      "regime": "bear",
+      "conf": 0.1,
+      "avg_return": 0,
+      "trades": []
+    },
+    {
+      "window": 4,
+      "date": "2023-09-25",
+      "regime": "bear",
+      "conf": 0.2,
+      "avg_return": 0,
+      "trades": []
+    },
+    {
+      "window": 5,
+      "date": "2023-10-31",
+      "regime": "bear",
+      "conf": 0.23,
+      "avg_return": 0,
+      "trades": []
+    },
+    {
+      "window": 6,
+      "date": "2023-11-28",
+      "regime": "bear",
+      "conf": 0.3,
+      "avg_return": 0,
+      "trades": []
+    },
+    {
+      "window": 7,
+      "date": "2023-12-26",
+      "regime": "bear",
+      "conf": 0.1,
+      "avg_return": 0,
+      "trades": []
+    },
+    {
+      "window": 8,
+      "date": "2024-01-24",
+      "regime": "bear",
+      "conf": 0.1,
+      "avg_return": 0,
+      "trades": []
+    },
+    {
+      "window": 9,
+      "date": "2024-02-29",
+      "regime": "bull",
+      "conf": 0.62,
+      "avg_return": 2.77,
+      "trades": [
+        {
+          "code": "513500",
+          "name": "标普500ETF博时",
+          "sector": "其他",
+          "entry_date": "2024-02-29",
+          "entry_price": 1.772,
+          "score": 13.35466626463334,
+          "exit_date": "2024-03-28",
+          "exit_price": 1.868,
+          "ret": 5.42
+        },
+        {
+          "code": "511010",
+          "name": "国债ETF国泰",
+          "sector": "国债/债券",
+          "entry_date": "2024-02-29",
+          "entry_price": 131.945,
+          "score": 1.826087931667943,
+          "exit_date": "2024-03-28",
+          "exit_price": 132.099,
+          "ret": 0.12
+        }
+      ]
+    },
+    {
+      "window": 10,
+      "date": "2024-03-28",
+      "regime": "neutral",
+      "conf": 0.38,
+      "avg_return": 4.7,
+      "trades": [
+        {
+          "code": "512800",
+          "name": "银行ETF华宝",
+          "sector": "银行",
+          "entry_date": "2024-03-28",
+          "entry_price": 0.582,
+          "score": 11.075958628085026,
+          "exit_date": "2024-04-29",
+          "exit_price": 0.606,
+          "ret": 4.12
+        },
+        {
+          "code": "518880",
+          "name": "黄金ETF华安",
+          "sector": "黄金",
+          "entry_date": "2024-03-28",
+          "entry_price": 5.029,
+          "score": 6.740193147176263,
+          "exit_date": "2024-04-29",
+          "exit_price": 5.294,
+          "ret": 5.27
+        }
+      ]
+    },
+    {
+      "window": 11,
+      "date": "2024-04-29",
+      "regime": "bull",
+      "conf": 0.9,
+      "avg_return": 1.77,
+      "trades": [
+        {
+          "code": "516110",
+          "name": "汽车ETF国泰",
+          "sector": "其他",
+          "entry_date": "2024-04-29",
+          "entry_price": 1.109,
+          "score": 15.136570339266298,
+          "exit_date": "2024-05-30",
+          "exit_price": 1.051,
+          "ret": -5.23
+        },
+        {
+          "code": "159726",
+          "name": "港股通高股息ETF华夏",
+          "sector": "港股",
+          "entry_date": "2024-04-29",
+          "entry_price": 0.933,
+          "score": 12.667256586918594,
+          "exit_date": "2024-05-30",
+          "exit_price": 1.001,
+          "ret": 7.29
+        },
+        {
+          "code": "513050",
+          "name": "中概互联网ETF易方达",
+          "sector": "中概互联",
+          "entry_date": "2024-04-29",
+          "entry_price": 1.019,
+          "score": 11.339453432746522,
+          "exit_date": "2024-05-30",
+          "exit_price": 1.052,
+          "ret": 3.24
+        }
+      ]
+    },
+    {
+      "window": 12,
+      "date": "2024-05-30",
+      "regime": "bear",
+      "conf": 0.2,
+      "avg_return": 0,
+      "trades": []
+    },
+    {
+      "window": 13,
+      "date": "2024-06-28",
+      "regime": "bear",
+      "conf": 0.1,
+      "avg_return": 0.5,
+      "trades": [
+        {
+          "code": "511010",
+          "name": "国债ETF国泰",
+          "sector": "国债/债券",
+          "entry_date": "2024-06-28",
+          "entry_price": 134.223,
+          "score": 1.5566245948886723,
+          "exit_date": "2024-07-26",
+          "exit_price": 134.891,
+          "ret": 0.5
+        }
+      ]
+    },
+    {
+      "window": 14,
+      "date": "2024-07-26",
+      "regime": "bear",
+      "conf": 0.2,
+      "avg_return": 0,
+      "trades": []
+    },
+    {
+      "window": 15,
+      "date": "2024-08-23",
+      "regime": "bear",
+      "conf": 0.1,
+      "avg_return": 0,
+      "trades": []
+    },
+    {
+      "window": 16,
+      "date": "2024-09-24",
+      "regime": "bull",
+      "conf": 0.73,
+      "avg_return": 17.43,
+      "trades": [
+        {
+          "code": "518880",
+          "name": "黄金ETF华安",
+          "sector": "黄金",
+          "entry_date": "2024-09-24",
+          "entry_price": 5.697,
+          "score": 6.026423338132962,
+          "exit_date": "2024-10-29",
+          "exit_price": 6.068,
+          "ret": 6.51
+        },
+        {
+          "code": "512880",
+          "name": "证券ETF国泰",
+          "sector": "证券/券商",
+          "entry_date": "2024-09-24",
+          "entry_price": 0.866,
+          "score": 5.708117141363268,
+          "exit_date": "2024-10-29",
+          "exit_price": 1.136,
+          "ret": 31.18
+        },
+        {
+          "code": "513060",
+          "name": "恒生医疗ETF博时",
+          "sector": "医疗/医药",
+          "entry_date": "2024-09-24",
+          "entry_price": 0.363,
+          "score": 3.3301524795675457,
+          "exit_date": "2024-10-29",
+          "exit_price": 0.416,
+          "ret": 14.6
+        }
+      ]
+    },
+    {
+      "window": 17,
+      "date": "2024-10-29",
+      "regime": "bull",
+      "conf": 0.8,
+      "avg_return": 2.39,
+      "trades": [
+        {
+          "code": "512980",
+          "name": "传媒ETF广发",
+          "sector": "传媒/游戏",
+          "entry_date": "2024-10-29",
+          "entry_price": 0.757,
+          "score": 20.20439612020431,
+          "exit_date": "2024-11-26",
+          "exit_price": 0.783,
+          "ret": 3.43
+        },
+        {
+          "code": "515030",
+          "name": "新能源车ETF华夏",
+          "sector": "新能源",
+          "entry_date": "2024-10-29",
+          "entry_price": 1.207,
+          "score": 13.262423382336499,
+          "exit_date": "2024-11-26",
+          "exit_price": 1.251,
+          "ret": 3.65
+        },
+        {
+          "code": "515210",
+          "name": "钢铁ETF国泰",
+          "sector": "其他",
+          "entry_date": "2024-10-29",
+          "entry_price": 1.106,
+          "score": 5.5948191578070245,
+          "exit_date": "2024-11-26",
+          "exit_price": 1.107,
+          "ret": 0.09
+        }
+      ]
+    },
+    {
+      "window": 18,
+      "date": "2024-11-26",
+      "regime": "neutral",
+      "conf": 0.45,
+      "avg_return": 2.97,
+      "trades": [
+        {
+          "code": "512720",
+          "name": "计算机ETF国泰",
+          "sector": "其他",
+          "entry_date": "2024-11-26",
+          "entry_price": 1.042,
+          "score": 47.96965834119755,
+          "exit_date": "2024-12-24",
+          "exit_price": 1.09,
+          "ret": 4.61
+        },
+        {
+          "code": "511010",
+          "name": "国债ETF国泰",
+          "sector": "国债/债券",
+          "entry_date": "2024-11-26",
+          "entry_price": 136.747,
+          "score": 0.9872171828210325,
+          "exit_date": "2024-12-24",
+          "exit_price": 138.577,
+          "ret": 1.34
+        }
+      ]
+    },
+    {
+      "window": 19,
+      "date": "2024-12-24",
+      "regime": "bull",
+      "conf": 0.65,
+      "avg_return": -0.76,
+      "trades": [
+        {
+          "code": "516150",
+          "name": "稀土ETF嘉实",
+          "sector": "其他",
+          "entry_date": "2024-12-24",
+          "entry_price": 1.064,
+          "score": 26.283455334409723,
+          "exit_date": "2025-01-22",
+          "exit_price": 1.043,
+          "ret": -1.97
+        },
+        {
+          "code": "159941",
+          "name": "纳指ETF广发",
+          "sector": "纳指(美股)",
+          "entry_date": "2024-12-24",
+          "entry_price": 1.25,
+          "score": 12.56285417980195,
+          "exit_date": "2025-01-22",
+          "exit_price": 1.27,
+          "ret": 1.6
+        },
+        {
+          "code": "512800",
+          "name": "银行ETF华宝",
+          "sector": "银行",
+          "entry_date": "2024-12-24",
+          "entry_price": 0.736,
+          "score": 11.52377824309928,
+          "exit_date": "2025-01-22",
+          "exit_price": 0.722,
+          "ret": -1.9
+        }
+      ]
+    },
+    {
+      "window": 20,
+      "date": "2025-01-22",
+      "regime": "bear",
+      "conf": 0.23,
+      "avg_return": 2.12,
+      "trades": [
+        {
+          "code": "511010",
+          "name": "国债ETF国泰",
+          "sector": "国债/债券",
+          "entry_date": "2025-01-22",
+          "entry_price": 138.634,
+          "score": 1.879085493560304,
+          "exit_date": "2025-02-27",
+          "exit_price": 137.531,
+          "ret": -0.8
+        },
+        {
+          "code": "518880",
+          "name": "黄金ETF华安",
+          "sector": "黄金",
+          "entry_date": "2025-01-22",
+          "entry_price": 6.181,
+          "score": 0.6671041318676691,
+          "exit_date": "2025-02-27",
+          "exit_price": 6.492,
+          "ret": 5.03
+        }
+      ]
+    },
+    {
+      "window": 21,
+      "date": "2025-02-27",
+      "regime": "bull",
+      "conf": 0.9,
+      "avg_return": -5.15,
+      "trades": [
+        {
+          "code": "513130",
+          "name": "恒生科技ETF华泰柏瑞",
+          "sector": "港股",
+          "entry_date": "2025-02-27",
+          "entry_price": 0.797,
+          "score": 35.083578427741195,
+          "exit_date": "2025-03-27",
+          "exit_price": 0.755,
+          "ret": -5.27
+        },
+        {
+          "code": "562500",
+          "name": "机器人ETF",
+          "sector": "其他",
+          "entry_date": "2025-02-27",
+          "entry_price": 1.021,
+          "score": 31.89548881125579,
+          "exit_date": "2025-03-27",
+          "exit_price": 0.924,
+          "ret": -9.5
+        },
+        {
+          "code": "513050",
+          "name": "中概互联网ETF易方达",
+          "sector": "中概互联",
+          "entry_date": "2025-02-27",
+          "entry_price": 1.502,
+          "score": 25.969322966056435,
+          "exit_date": "2025-03-27",
+          "exit_price": 1.492,
+          "ret": -0.67
+        }
+      ]
+    },
+    {
+      "window": 22,
+      "date": "2025-03-27",
+      "regime": "neutral",
+      "conf": 0.38,
+      "avg_return": 0.52,
+      "trades": [
+        {
+          "code": "513060",
+          "name": "恒生医疗ETF博时",
+          "sector": "医疗/医药",
+          "entry_date": "2025-03-27",
+          "entry_price": 0.475,
+          "score": 15.433432300838453,
+          "exit_date": "2025-04-25",
+          "exit_price": 0.486,
+          "ret": 2.32
+        },
+        {
+          "code": "562510",
+          "name": "旅游ETF华夏",
+          "sector": "其他",
+          "entry_date": "2025-03-27",
+          "entry_price": 0.701,
+          "score": -6.808884995294486,
+          "exit_date": "2025-04-25",
+          "exit_price": 0.692,
+          "ret": -1.28
+        }
+      ]
+    },
+    {
+      "window": 23,
+      "date": "2025-04-25",
+      "regime": "bear",
+      "conf": 0.3,
+      "avg_return": -2.06,
+      "trades": [
+        {
+          "code": "518880",
+          "name": "黄金ETF华安",
+          "sector": "黄金",
+          "entry_date": "2025-04-25",
+          "entry_price": 7.53,
+          "score": 16.96640389694094,
+          "exit_date": "2025-05-28",
+          "exit_price": 7.375,
+          "ret": -2.06
+        }
+      ]
+    },
+    {
+      "window": 24,
+      "date": "2025-05-28",
+      "regime": "neutral",
+      "conf": 0.4,
+      "avg_return": 0,
+      "trades": []
+    },
+    {
+      "window": 25,
+      "date": "2025-06-26",
+      "regime": "bull",
+      "conf": 0.82,
+      "avg_return": 13.61,
+      "trades": [
+        {
+          "code": "512800",
+          "name": "银行ETF华宝",
+          "sector": "银行",
+          "entry_date": "2025-06-26",
+          "entry_price": 0.881,
+          "score": 14.489785052548509,
+          "exit_date": "2025-07-24",
+          "exit_price": 0.859,
+          "ret": -2.5
+        },
+        {
+          "code": "513090",
+          "name": "香港证券ETF易方达",
+          "sector": "证券/券商",
+          "entry_date": "2025-06-26",
+          "entry_price": 1.835,
+          "score": 7.380835881194706,
+          "exit_date": "2025-07-24",
+          "exit_price": 2.313,
+          "ret": 26.05
+        },
+        {
+          "code": "515880",
+          "name": "通信ETF国泰",
+          "sector": "通信/5G",
+          "entry_date": "2025-06-26",
+          "entry_price": 0.463,
+          "score": 5.767753424380772,
+          "exit_date": "2025-07-24",
+          "exit_price": 0.543,
+          "ret": 17.28
+        }
+      ]
+    },
+    {
+      "window": 26,
+      "date": "2025-07-24",
+      "regime": "bull",
+      "conf": 0.9,
+      "avg_return": 6.55,
+      "trades": [
+        {
+          "code": "513090",
+          "name": "香港证券ETF易方达",
+          "sector": "证券/券商",
+          "entry_date": "2025-07-24",
+          "entry_price": 2.313,
+          "score": 56.15996646416305,
+          "exit_date": "2025-08-21",
+          "exit_price": 2.413,
+          "ret": 4.32
+        },
+        {
+          "code": "516150",
+          "name": "稀土ETF嘉实",
+          "sector": "其他",
+          "entry_date": "2025-07-24",
+          "entry_price": 1.444,
+          "score": 32.84858855927256,
+          "exit_date": "2025-08-21",
+          "exit_price": 1.594,
+          "ret": 10.39
+        },
+        {
+          "code": "512400",
+          "name": "有色金属ETF南方",
+          "sector": "黄金",
+          "entry_date": "2025-07-24",
+          "entry_price": 1.273,
+          "score": 20.786083097406994,
+          "exit_date": "2025-08-21",
+          "exit_price": 1.336,
+          "ret": 4.95
+        }
+      ]
+    },
+    {
+      "window": 27,
+      "date": "2025-08-21",
+      "regime": "bull",
+      "conf": 0.9,
+      "avg_return": 22.24,
+      "trades": [
+        {
+          "code": "515880",
+          "name": "通信ETF国泰",
+          "sector": "通信/5G",
+          "entry_date": "2025-08-21",
+          "entry_price": 0.699,
+          "score": 68.89750528977432,
+          "exit_date": "2025-09-18",
+          "exit_price": 0.885,
+          "ret": 26.61
+        },
+        {
+          "code": "515070",
+          "name": "人工智能ETF华夏",
+          "sector": "其他",
+          "entry_date": "2025-08-21",
+          "entry_price": 1.563,
+          "score": 34.717006737858256,
+          "exit_date": "2025-09-18",
+          "exit_price": 1.889,
+          "ret": 20.86
+        },
+        {
+          "code": "159915",
+          "name": "创业板ETF易方达",
+          "sector": "创业板50",
+          "entry_date": "2025-08-21",
+          "entry_price": 2.572,
+          "score": 28.483662668122257,
+          "exit_date": "2025-09-18",
+          "exit_price": 3.067,
+          "ret": 19.25
+        }
+      ]
+    },
+    {
+      "window": 28,
+      "date": "2025-09-18",
+      "regime": "bull",
+      "conf": 0.8,
+      "avg_return": 9.96,
+      "trades": [
+        {
+          "code": "159755",
+          "name": "电池ETF广发",
+          "sector": "电池/锂电",
+          "entry_date": "2025-09-18",
+          "entry_price": 0.982,
+          "score": 34.13410798940601,
+          "exit_date": "2025-10-24",
+          "exit_price": 1.047,
+          "ret": 6.62
+        },
+        {
+          "code": "512480",
+          "name": "半导体ETF国联安",
+          "sector": "半导体/芯片",
+          "entry_date": "2025-09-18",
+          "entry_price": 1.426,
+          "score": 30.208322447550852,
+          "exit_date": "2025-10-24",
+          "exit_price": 1.528,
+          "ret": 7.15
+        },
+        {
+          "code": "512400",
+          "name": "有色金属ETF南方",
+          "sector": "黄金",
+          "entry_date": "2025-09-18",
+          "entry_price": 1.464,
+          "score": 27.805101701777918,
+          "exit_date": "2025-10-24",
+          "exit_price": 1.7,
+          "ret": 16.12
+        }
+      ]
+    },
+    {
+      "window": 29,
+      "date": "2025-10-24",
+      "regime": "bull",
+      "conf": 0.9,
+      "avg_return": -9.22,
+      "trades": [
+        {
+          "code": "515070",
+          "name": "人工智能ETF华夏",
+          "sector": "其他",
+          "entry_date": "2025-10-24",
+          "entry_price": 1.949,
+          "score": 43.3773303224891,
+          "exit_date": "2025-11-21",
+          "exit_price": 1.717,
+          "ret": -11.9
+        },
+        {
+          "code": "512480",
+          "name": "半导体ETF国联安",
+          "sector": "半导体/芯片",
+          "entry_date": "2025-10-24",
+          "entry_price": 1.528,
+          "score": 37.3456404653478,
+          "exit_date": "2025-11-21",
+          "exit_price": 1.322,
+          "ret": -13.48
+        },
+        {
+          "code": "515030",
+          "name": "新能源车ETF华夏",
+          "sector": "新能源",
+          "entry_date": "2025-10-24",
+          "entry_price": 1.804,
+          "score": 28.269803509558066,
+          "exit_date": "2025-11-21",
+          "exit_price": 1.763,
+          "ret": -2.27
+        }
+      ]
+    },
+    {
+      "window": 30,
+      "date": "2025-11-21",
+      "regime": "bear",
+      "conf": 0.28,
+      "avg_return": -0.24,
+      "trades": [
+        {
+          "code": "511180",
+          "name": "可转债ETF海富通",
+          "sector": "国债/债券",
+          "entry_date": "2025-11-21",
+          "entry_price": 12.603,
+          "score": -1.2568537483746527,
+          "exit_date": "2025-12-19",
+          "exit_price": 12.573,
+          "ret": -0.24
+        }
+      ]
+    },
+    {
+      "window": 31,
+      "date": "2025-12-19",
+      "regime": "neutral",
+      "conf": 0.43,
+      "avg_return": 36.55,
+      "trades": [
+        {
+          "code": "563230",
+          "name": "卫星ETF富国",
+          "sector": "其他",
+          "entry_date": "2025-12-19",
+          "entry_price": 1.19,
+          "score": 15.302835967256017,
+          "exit_date": "2026-01-20",
+          "exit_price": 1.625,
+          "ret": 36.55
+        }
+      ]
+    },
+    {
+      "window": 32,
+      "date": "2026-01-20",
+      "regime": "bull",
+      "conf": 0.9,
+      "avg_return": 2.06,
+      "trades": [
+        {
+          "code": "563230",
+          "name": "卫星ETF富国",
+          "sector": "其他",
+          "entry_date": "2026-01-20",
+          "entry_price": 1.625,
+          "score": 51.609955999977196,
+          "exit_date": "2026-02-25",
+          "exit_price": 1.573,
+          "ret": -3.2
+        },
+        {
+          "code": "512400",
+          "name": "有色金属ETF南方",
+          "sector": "黄金",
+          "entry_date": "2026-01-20",
+          "entry_price": 2.184,
+          "score": 25.039246218123385,
+          "exit_date": "2026-02-25",
+          "exit_price": 2.347,
+          "ret": 7.46
+        },
+        {
+          "code": "511180",
+          "name": "可转债ETF海富通",
+          "sector": "国债/债券",
+          "entry_date": "2026-01-20",
+          "entry_price": 13.21,
+          "score": 4.006404949959297,
+          "exit_date": "2026-02-25",
+          "exit_price": 13.465,
+          "ret": 1.93
+        }
+      ]
+    },
+    {
+      "window": 33,
+      "date": "2026-02-25",
+      "regime": "bull",
+      "conf": 0.68,
+      "avg_return": -9.73,
+      "trades": [
+        {
+          "code": "512660",
+          "name": "军工ETF国泰",
+          "sector": "军工/国防",
+          "entry_date": "2026-02-25",
+          "entry_price": 1.526,
+          "score": 28.54332600350093,
+          "exit_date": "2026-03-25",
+          "exit_price": 1.313,
+          "ret": -13.96
+        },
+        {
+          "code": "516150",
+          "name": "稀土ETF嘉实",
+          "sector": "其他",
+          "entry_date": "2026-02-25",
+          "entry_price": 2.235,
+          "score": 26.635978260131925,
+          "exit_date": "2026-03-25",
+          "exit_price": 1.876,
+          "ret": -16.06
+        },
+        {
+          "code": "515880",
+          "name": "通信ETF国泰",
+          "sector": "通信/5G",
+          "entry_date": "2026-02-25",
+          "entry_price": 1.084,
+          "score": 25.558488519939615,
+          "exit_date": "2026-03-25",
+          "exit_price": 1.093,
+          "ret": 0.83
+        }
+      ]
+    },
+    {
+      "window": 34,
+      "date": "2026-03-25",
+      "regime": "bear",
+      "conf": 0.28,
+      "avg_return": 1.56,
+      "trades": [
+        {
+          "code": "511010",
+          "name": "国债ETF国泰",
+          "sector": "国债/债券",
+          "entry_date": "2026-03-25",
+          "entry_price": 140.237,
+          "score": 0.3459634179306423,
+          "exit_date": "2026-04-23",
+          "exit_price": 140.837,
+          "ret": 0.43
+        },
+        {
+          "code": "518880",
+          "name": "黄金ETF华安",
+          "sector": "黄金",
+          "entry_date": "2026-03-25",
+          "entry_price": 9.641,
+          "score": -5.347095571624233,
+          "exit_date": "2026-04-23",
+          "exit_price": 9.9,
+          "ret": 2.69
+        }
+      ]
+    },
+    {
+      "window": 35,
+      "date": "2026-04-23",
+      "regime": "bull",
+      "conf": 0.62,
+      "avg_return": 5.48,
+      "trades": [
+        {
+          "code": "515880",
+          "name": "通信ETF国泰",
+          "sector": "通信/5G",
+          "entry_date": "2026-04-23",
+          "entry_price": 1.396,
+          "score": 30.41656521721048,
+          "exit_date": "2026-05-26",
+          "exit_price": 1.548,
+          "ret": 10.89
+        },
+        {
+          "code": "515220",
+          "name": "煤炭ETF国泰",
+          "sector": "其他",
+          "entry_date": "2026-04-23",
+          "entry_price": 1.246,
+          "score": 9.929968690128122,
+          "exit_date": "2026-05-26",
+          "exit_price": 1.206,
+          "ret": -3.21
+        },
+        {
+          "code": "159915",
+          "name": "创业板ETF易方达",
+          "sector": "创业板50",
+          "entry_date": "2026-04-23",
+          "entry_price": 3.728,
+          "score": 8.24700432449344,
+          "exit_date": "2026-05-26",
+          "exit_price": 4.055,
+          "ret": 8.77
+        }
+      ]
+    },
+    {
+      "window": 36,
+      "date": "2026-05-20",
+      "regime": "bear",
+      "conf": 0.3,
+      "avg_return": 0,
+      "trades": []
+    }
+  ]
+}

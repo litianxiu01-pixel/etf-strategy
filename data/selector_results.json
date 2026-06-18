@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-06-17T09:47:34.458170",
+  "dataDate": "2026-06-16",
+  "regime": "bull",
+  "regimeConfidence": 0.575,
+  "regimeDetails": {
+    "trend": {
+      "score": 1.0,
+      "ret60d": 8.0,
+      "pct_ma60": 54
+    },
+    "breadth": {
+      "score": 0.5,
+      "pct_ma20": 57
+    },
+    "volatility": {
+      "score": 0.0,
+      "vol_30d": 34.4
+    },
+    "flow": {
+      "score": 0.5,
+      "ret20d": -1.8
+    }
+  },
+  "mode": "动量模式",
+  "maxPositions": 5,
+  "hotSectors": [
+    "电池/锂电",
+    "科创50",
+    "纳指(美股)",
+    "军工/国防",
+    "通信/5G",
+    "半导体/芯片",
+    "证券/券商",
+    "创业板50"
+  ],
+  "coldSectors": [
+    "港股",
+    "中概互联"
+  ],
+  "candidates": [
+    {
+      "code": "515880",
+      "name": "通信ETF国泰",
+      "sector": "通信/5G",
+      "assetClass": "cn",
+      "score": 53.7,
+      "ret20d": 14.4,
+      "ret60d": 61.7
+    },
+    {
+      "code": "515050",
+      "name": "通信ETF华夏",
+      "sector": "通信/5G",
+      "assetClass": "cn",
+      "score": 52.0,
+      "ret20d": 14.5,
+      "ret60d": 59.5
+    },
+    {
+      "code": "512480",
+      "name": "半导体ETF国联安",
+      "sector": "半导体/芯片",
+      "assetClass": "cn",
+      "score": 35.5,
+      "ret20d": 5.8,
+      "ret60d": 43.8
+    },
+    {
+      "code": "512760",
+      "name": "芯片ETF国泰",
+      "sector": "半导体/芯片",
+      "assetClass": "cn",
+      "score": 30.2,
+      "ret20d": 3.3,
+      "ret60d": 38.2
+    },
+    {
+      "code": "159501",
+      "name": "纳指ETF嘉实",
+      "sector": "纳指(美股)",
+      "assetClass": "us",
+      "score": 25.2,
+      "ret20d": 11.6,
+      "ret60d": 27.9
+    },
+    {
+      "code": "159696",
+      "name": "纳指ETF易方达",
+      "sector": "纳指(美股)",
+      "assetClass": "us",
+      "score": 23.7,
+      "ret20d": 10.3,
+      "ret60d": 26.6
+    },
+    {
+      "code": "513100",
+      "name": "纳指ETF国泰",
+      "sector": "纳指(美股)",
+      "assetClass": "us",
+      "score": 23.5,
+      "ret20d": 11.4,
+      "ret60d": 27.4
+    },
+    {
+      "code": "159660",
+      "name": "纳指ETF汇添富",
+      "sector": "纳指(美股)",
+      "assetClass": "us",
+      "score": 23.4,
+      "ret20d": 11.1,
+      "ret60d": 26.8
+    }
+  ]
+}

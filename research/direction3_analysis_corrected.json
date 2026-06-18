@@ -1,0 +1,24 @@
+{
+  "performance_by_method": {
+    "current": {
+      "avg": 0.9565993664461363,
+      "count": 36
+    },
+    "sharpe": {
+      "avg": 0.8239355011492102,
+      "count": 36
+    },
+    "sortino": {
+      "avg": 0.8239355011492102,
+      "count": 36
+    }
+  },
+  "methodology": {
+    "current": "ret60 - vol20*0.2",
+    "sharpe": "ret60 / vol60",
+    "sortino": "ret60 / downside_vol60 (简化: ret60/vol60)",
+    "note": "使用相同窗口集合 (对齐样本)"
+  },
+  "data_source": "/Users/lx/.qclaw/workspace-main/data/market_regime/combined_daily.json",
+  "analysis_time": "2026-06-17T23:04:43.415481"
+}

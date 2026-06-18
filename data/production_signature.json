@@ -1,0 +1,78 @@
+{
+  "signature": "e3e937da0aeeb8a1",
+  "payload": {
+    "input_manifest": {
+      "combined_daily": "e9476a1a37839ef5c00e0d51beef251bae3633cb72113e2536918376705d4b83",
+      "etf_universe": "4745f4bed663f1e860148713394fa3dc15f556f9238db799e24ef9d21e5f94ad",
+      "u7_strategy": "464b8b98724021cbc9c58256ee6c7a011bf35a989b8cc110eb2f3a07231ffa4e",
+      "u7_v3_exit_rules": "915782fb98d162388da9fa83898c824208788bf7e44b5b3be2e1dd61c979f9d2"
+    },
+    "strategy": "U7_CalendarV3_H20",
+    "params": {
+      "hold_days": 20,
+      "min_sectors": 4,
+      "cold_threshold": -3.0,
+      "max_positions": {
+        "bull": 3,
+        "neutral": 5,
+        "bear": 2
+      },
+      "stop_loss_pct": null,
+      "disaster_exit_pct": -12,
+      "disaster_exit_active": false,
+      "exit_rules": "pure_rebalance"
+    },
+    "daily_sim": {
+      "total_ret": 55.2,
+      "dd": 13.9,
+      "sharpe": 0.91,
+      "ann_ret": 16.2,
+      "win_rate": 67.9,
+      "n_trades": 53,
+      "total_cost": 4406.0
+    },
+    "disaster_exit_test": {
+      "threshold": -12,
+      "active_in_daily_sim": false,
+      "base": {
+        "total_ret": 55.2,
+        "dd": 13.9,
+        "sharpe": 0.91,
+        "win_rate": 67.9,
+        "n_events": 0
+      },
+      "with_disaster": {
+        "total_ret": 49.4,
+        "dd": 13.2,
+        "sharpe": 0.83,
+        "win_rate": 66.0,
+        "n_events": 4,
+        "exit_reasons": {
+          "disaster_exit_-12%": 4,
+          "regime_bear": 16,
+          "fell_out": 32,
+          "final_close": 1
+        }
+      },
+      "delta": {
+        "total_ret_pp": -5.8,
+        "dd_pp": -0.7,
+        "sharpe": -0.08,
+        "win_rate_pp": -1.9
+      },
+      "decision": "not_promoted"
+    },
+    "window_backtest": {
+      "total_ret": 181.1,
+      "dd": 9.7,
+      "sharpe": 1.61,
+      "win_rate": 73.1
+    },
+    "liquidity": {
+      "threshold": 2000000,
+      "pass": 31,
+      "fail": 25
+    },
+    "cost_bps": 20
+  }
+}

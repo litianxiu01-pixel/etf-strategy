@@ -1,0 +1,215 @@
+[
+  {
+    "label": "hold20 pure rebalance",
+    "total_ret": 55.2,
+    "dd": 13.9,
+    "sharpe": 0.91,
+    "ann_ret": 16.2,
+    "win_rate": 67.9,
+    "n_trades": 53,
+    "total_cost": 4406.0,
+    "exit_reasons": {
+      "regime_bear": 20,
+      "fell_out": 32,
+      "final_close": 1
+    },
+    "hold": 20
+  },
+  {
+    "label": "hold20 disaster -12%",
+    "total_ret": 49.4,
+    "dd": 13.2,
+    "sharpe": 0.83,
+    "ann_ret": 14.7,
+    "win_rate": 66.0,
+    "n_trades": 53,
+    "total_cost": 4287.0,
+    "exit_reasons": {
+      "disaster_exit_-12%": 4,
+      "regime_bear": 16,
+      "fell_out": 32,
+      "final_close": 1
+    },
+    "hold": 20
+  },
+  {
+    "label": "V3 base (纯rebalance)",
+    "total_ret": 48.8,
+    "dd": 14.7,
+    "sharpe": 0.81,
+    "ann_ret": 14.5,
+    "win_rate": 61.7,
+    "n_trades": 94,
+    "total_cost": 6663.0,
+    "exit_reasons": {
+      "fell_out": 73,
+      "regime_bear": 20,
+      "final_close": 1
+    },
+    "hold": 10
+  },
+  {
+    "label": "hold20 MA3日+动量",
+    "total_ret": 35.1,
+    "dd": 10.8,
+    "sharpe": 0.73,
+    "ann_ret": 10.8,
+    "win_rate": 50.0,
+    "n_trades": 58,
+    "total_cost": 3018.0,
+    "exit_reasons": {
+      "mom_rank_0.5": 28,
+      "fell_out": 15,
+      "MA20_break_3d": 15
+    },
+    "hold": 20
+  },
+  {
+    "label": "hold20 MA2日+动量",
+    "total_ret": 34.2,
+    "dd": 10.5,
+    "sharpe": 0.72,
+    "ann_ret": 10.6,
+    "win_rate": 48.3,
+    "n_trades": 58,
+    "total_cost": 2999.0,
+    "exit_reasons": {
+      "mom_rank_0.5": 27,
+      "fell_out": 12,
+      "MA20_break_2d": 19
+    },
+    "hold": 20
+  },
+  {
+    "label": "+ MA20连3日确认卖",
+    "total_ret": 34.7,
+    "dd": 15.7,
+    "sharpe": 0.62,
+    "ann_ret": 10.7,
+    "win_rate": 55.1,
+    "n_trades": 98,
+    "total_cost": 5123.0,
+    "exit_reasons": {
+      "fell_out": 65,
+      "MA20_break_3d": 33
+    },
+    "hold": 10
+  },
+  {
+    "label": "+ MA20连2日确认卖",
+    "total_ret": 30.1,
+    "dd": 15.4,
+    "sharpe": 0.55,
+    "ann_ret": 9.4,
+    "win_rate": 54.5,
+    "n_trades": 99,
+    "total_cost": 5068.0,
+    "exit_reasons": {
+      "fell_out": 59,
+      "MA20_break_2d": 40
+    },
+    "hold": 10
+  },
+  {
+    "label": "hold20 MA2日+动量+DD8",
+    "total_ret": 15.7,
+    "dd": 11.1,
+    "sharpe": 0.33,
+    "ann_ret": 5.1,
+    "win_rate": 48.3,
+    "n_trades": 58,
+    "total_cost": 2881.0,
+    "exit_reasons": {
+      "mom_rank_0.5": 27,
+      "fell_out": 12,
+      "MA20_break_2d": 19,
+      "DD_cut_8%": 225
+    },
+    "hold": 20
+  },
+  {
+    "label": "+ DD8%减仓",
+    "total_ret": 14.8,
+    "dd": 13.3,
+    "sharpe": 0.31,
+    "ann_ret": 4.8,
+    "win_rate": 61.7,
+    "n_trades": 94,
+    "total_cost": 6998.0,
+    "exit_reasons": {
+      "fell_out": 73,
+      "regime_bear": 20,
+      "DD_cut_8%": 681,
+      "final_close": 1
+    },
+    "hold": 10
+  },
+  {
+    "label": "+ MA2日+动量 (无DD)",
+    "total_ret": 16.4,
+    "dd": 14.9,
+    "sharpe": 0.31,
+    "ann_ret": 5.3,
+    "win_rate": 47.7,
+    "n_trades": 107,
+    "total_cost": 5090.0,
+    "exit_reasons": {
+      "fell_out": 34,
+      "mom_rank_0.5": 46,
+      "MA20_break_2d": 27
+    },
+    "hold": 10
+  },
+  {
+    "label": "+ 动量跌出前50%卖",
+    "total_ret": 12.7,
+    "dd": 15.5,
+    "sharpe": 0.22,
+    "ann_ret": 4.2,
+    "win_rate": 51.3,
+    "n_trades": 117,
+    "total_cost": 8374.0,
+    "exit_reasons": {
+      "fell_out": 43,
+      "mom_rank_0.5": 66,
+      "regime_bear": 8
+    },
+    "hold": 10
+  },
+  {
+    "label": "+ DD8%减+12%防御",
+    "total_ret": -2.9,
+    "dd": 27.4,
+    "sharpe": -0.21,
+    "ann_ret": -1.0,
+    "win_rate": 57.0,
+    "n_trades": 165,
+    "total_cost": 13827.0,
+    "exit_reasons": {
+      "fell_out": 72,
+      "regime_bear": 17,
+      "DD_cut_8%": 605,
+      "DD_defensive_12%": 74,
+      "final_close": 2
+    },
+    "hold": 10
+  },
+  {
+    "label": "+ MA2日+动量+DD8%+12%",
+    "total_ret": -57.6,
+    "dd": 61.1,
+    "sharpe": -4.1,
+    "ann_ret": -25.4,
+    "win_rate": 10.5,
+    "n_trades": 589,
+    "total_cost": 34968.0,
+    "exit_reasons": {
+      "fell_out": 12,
+      "mom_rank_0.5": 372,
+      "MA20_break_2d": 150,
+      "DD_cut_8%": 68,
+      "DD_defensive_12%": 55
+    },
+    "hold": 10
+  }
+]

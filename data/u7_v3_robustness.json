@@ -1,0 +1,108 @@
+{
+  "config": {
+    "name": "U7_CalendarV3",
+    "hold_days": 10,
+    "sector_filter": "always",
+    "cold_threshold": -3.0,
+    "ma_align": "20>60",
+    "vol_min_ratio": 1.2,
+    "rsi_min": null,
+    "stop_loss_pct": null,
+    "stop_ma": null,
+    "min_sectors": 4,
+    "conf_scale": false,
+    "momentum_weights": {
+      "ret60": 1.0,
+      "vol20": 0.2,
+      "trend": 0.2
+    },
+    "max_positions": {
+      "bull": 3,
+      "neutral": 5,
+      "bear": 2
+    }
+  },
+  "plateau_top5": [
+    {
+      "max_positions/bull": 3,
+      "max_positions/neutral": 4,
+      "min_sectors": 3,
+      "cold_threshold": -3,
+      "hold_days": 20,
+      "ret": 155.4,
+      "dd": 9.7,
+      "sr": 1.17,
+      "wr": 45.9,
+      "score": 73.3,
+      "active_n": 25,
+      "total_n": 37
+    },
+    {
+      "max_positions/bull": 3,
+      "max_positions/neutral": 4,
+      "min_sectors": 4,
+      "cold_threshold": -3,
+      "hold_days": 20,
+      "ret": 155.4,
+      "dd": 9.7,
+      "sr": 1.17,
+      "wr": 45.9,
+      "score": 73.3,
+      "active_n": 25,
+      "total_n": 37
+    },
+    {
+      "max_positions/bull": 3,
+      "max_positions/neutral": 4,
+      "min_sectors": 5,
+      "cold_threshold": -3,
+      "hold_days": 20,
+      "ret": 155.4,
+      "dd": 9.7,
+      "sr": 1.17,
+      "wr": 45.9,
+      "score": 73.3,
+      "active_n": 25,
+      "total_n": 37
+    },
+    {
+      "max_positions/bull": 3,
+      "max_positions/neutral": 5,
+      "min_sectors": 3,
+      "cold_threshold": -3,
+      "hold_days": 20,
+      "ret": 155.4,
+      "dd": 9.7,
+      "sr": 1.17,
+      "wr": 45.9,
+      "score": 73.3,
+      "active_n": 25,
+      "total_n": 37
+    },
+    {
+      "max_positions/bull": 3,
+      "max_positions/neutral": 5,
+      "min_sectors": 4,
+      "cold_threshold": -3,
+      "hold_days": 20,
+      "ret": 155.4,
+      "dd": 9.7,
+      "sr": 1.17,
+      "wr": 45.9,
+      "score": 73.3,
+      "active_n": 25,
+      "total_n": 37
+    }
+  ],
+  "risk_best": "DD8%降仓",
+  "risk_best_config": {
+    "dd_cut_pct": 8
+  },
+  "walkforward_train_best": {
+    "bull": 4,
+    "train_sr": 0.78,
+    "val_sr": 0.8,
+    "oos_gap": 0.020000000000000018,
+    "oos_ret": 21.8
+  }
+}

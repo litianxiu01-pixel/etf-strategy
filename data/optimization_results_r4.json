@@ -1,0 +1,244 @@
+{
+  "timestamp": "2026-06-17T17:28:34.618838",
+  "round": 4,
+  "results": [
+    {
+      "config": "T9_Min4sectors",
+      "composite": 79.6,
+      "metrics": {
+        "total_ret": 128.5,
+        "ann": 54.3,
+        "dd": 13.0,
+        "sharpe": 1.41,
+        "win_rate": 60.4,
+        "alpha": 113.5
+      },
+      "bench_total": 14.9,
+      "trades": 48
+    },
+    {
+      "config": "T8_Min3sectors",
+      "composite": 77.6,
+      "metrics": {
+        "total_ret": 112.8,
+        "ann": 48.6,
+        "dd": 13.6,
+        "sharpe": 1.3,
+        "win_rate": 58.3,
+        "alpha": 97.8
+      },
+      "bench_total": 14.9,
+      "trades": 48
+    },
+    {
+      "config": "T11_SL10%+Min3sec",
+      "composite": 77.0,
+      "metrics": {
+        "total_ret": 114.7,
+        "ann": 49.4,
+        "dd": 13.9,
+        "sharpe": 1.33,
+        "win_rate": 58.3,
+        "alpha": 99.8
+      },
+      "bench_total": 14.9,
+      "trades": 48
+    },
+    {
+      "config": "T15_ShieldsLite",
+      "composite": 76.6,
+      "metrics": {
+        "total_ret": 109.8,
+        "ann": 47.6,
+        "dd": 13.9,
+        "sharpe": 1.29,
+        "win_rate": 56.2,
+        "alpha": 94.9
+      },
+      "bench_total": 14.9,
+      "trades": 48
+    },
+    {
+      "config": "T1_SL5%",
+      "composite": 71.8,
+      "metrics": {
+        "total_ret": 68.8,
+        "ann": 31.6,
+        "dd": 15.0,
+        "sharpe": 1.17,
+        "win_rate": 50.0,
+        "alpha": 53.8
+      },
+      "bench_total": 14.9,
+      "trades": 48
+    },
+    {
+      "config": "T10_SL8%+Min3sec",
+      "composite": 69.7,
+      "metrics": {
+        "total_ret": 109.1,
+        "ann": 47.3,
+        "dd": 16.8,
+        "sharpe": 1.28,
+        "win_rate": 58.3,
+        "alpha": 94.2
+      },
+      "bench_total": 14.9,
+      "trades": 48
+    },
+    {
+      "config": "T3_SL10%",
+      "composite": 69.5,
+      "metrics": {
+        "total_ret": 73.2,
+        "ann": 33.4,
+        "dd": 16.3,
+        "sharpe": 1.19,
+        "win_rate": 52.1,
+        "alpha": 58.2
+      },
+      "bench_total": 14.9,
+      "trades": 48
+    },
+    {
+      "config": "T14_AllShields",
+      "composite": 68.7,
+      "metrics": {
+        "total_ret": 105.4,
+        "ann": 45.9,
+        "dd": 17.0,
+        "sharpe": 1.24,
+        "win_rate": 56.2,
+        "alpha": 90.5
+      },
+      "bench_total": 14.9,
+      "trades": 48
+    },
+    {
+      "config": "T0_S3baseline",
+      "composite": 68.6,
+      "metrics": {
+        "total_ret": 70.2,
+        "ann": 32.2,
+        "dd": 16.2,
+        "sharpe": 1.14,
+        "win_rate": 52.1,
+        "alpha": 55.3
+      },
+      "bench_total": 14.9,
+      "trades": 48
+    },
+    {
+      "config": "T4_SL12%",
+      "composite": 65.7,
+      "metrics": {
+        "total_ret": 69.8,
+        "ann": 32.0,
+        "dd": 17.4,
+        "sharpe": 1.14,
+        "win_rate": 52.1,
+        "alpha": 54.9
+      },
+      "bench_total": 14.9,
+      "trades": 48
+    },
+    {
+      "config": "T2_SL8%",
+      "composite": 64.8,
+      "metrics": {
+        "total_ret": 71.6,
+        "ann": 32.8,
+        "dd": 18.0,
+        "sharpe": 1.17,
+        "win_rate": 52.1,
+        "alpha": 56.7
+      },
+      "bench_total": 14.9,
+      "trades": 48
+    },
+    {
+      "config": "T13_ConfScale+SL8%",
+      "composite": 64.0,
+      "metrics": {
+        "total_ret": 71.7,
+        "ann": 32.8,
+        "dd": 18.3,
+        "sharpe": 1.17,
+        "win_rate": 52.1,
+        "alpha": 56.8
+      },
+      "bench_total": 14.9,
+      "trades": 48
+    },
+    {
+      "config": "T12_ConfScale",
+      "composite": 60.1,
+      "metrics": {
+        "total_ret": 65.3,
+        "ann": 30.2,
+        "dd": 19.0,
+        "sharpe": 1.06,
+        "win_rate": 52.1,
+        "alpha": 50.4
+      },
+      "bench_total": 14.9,
+      "trades": 48
+    },
+    {
+      "config": "T6_SL8%+MA20stop",
+      "composite": 47.9,
+      "metrics": {
+        "total_ret": 39.0,
+        "ann": 18.9,
+        "dd": 18.1,
+        "sharpe": 0.73,
+        "win_rate": 41.7,
+        "alpha": 24.1
+      },
+      "bench_total": 14.9,
+      "trades": 48
+    },
+    {
+      "config": "T7_SL10%+MA20stop",
+      "composite": 45.6,
+      "metrics": {
+        "total_ret": 38.0,
+        "ann": 18.4,
+        "dd": 18.8,
+        "sharpe": 0.72,
+        "win_rate": 41.7,
+        "alpha": 23.0
+      },
+      "bench_total": 14.9,
+      "trades": 48
+    },
+    {
+      "config": "T5_MA20stop",
+      "composite": 42.9,
+      "metrics": {
+        "total_ret": 36.8,
+        "ann": 17.9,
+        "dd": 19.4,
+        "sharpe": 0.7,
+        "win_rate": 41.7,
+        "alpha": 21.8
+      },
+      "bench_total": 14.9,
+      "trades": 48
+    }
+  ],
+  "best": {
+    "config": "T9_Min4sectors",
+    "composite": 79.6,
+    "metrics": {
+      "total_ret": 128.5,
+      "ann": 54.3,
+      "dd": 13.0,
+      "sharpe": 1.41,
+      "win_rate": 60.4,
+      "alpha": 113.5
+    },
+    "bench_total": 14.9,
+    "trades": 48
+  }
+}

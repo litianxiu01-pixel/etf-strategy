@@ -1,0 +1,14 @@
+{
+  "strategy": "U7_CalendarV3_H20",
+  "last_check_date": "2026-06-17",
+  "last_rebalance_date": "2026-06-17",
+  "regime": "bear",
+  "regime_conf": 0.1,
+  "is_rebalance": false,
+  "trading_days_since_last": 0,
+  "positions_this_run": [],
+  "deployed": 0,
+  "cash": 100000,
+  "signature": "9bf8dc093370",
+  "updated_at": "2026-06-18T01:00:47.901592"
+}

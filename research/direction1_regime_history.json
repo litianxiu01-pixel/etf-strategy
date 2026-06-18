@@ -1,0 +1,5012 @@
+[
+  {
+    "date": "2023-01-03",
+    "index": 1166,
+    "regime": "bull",
+    "conf": 0.6749999999999999
+  },
+  {
+    "date": "2023-01-04",
+    "index": 1167,
+    "regime": "bull",
+    "conf": 0.6749999999999999
+  },
+  {
+    "date": "2023-01-05",
+    "index": 1168,
+    "regime": "bull",
+    "conf": 0.7999999999999999
+  },
+  {
+    "date": "2023-01-06",
+    "index": 1169,
+    "regime": "bull",
+    "conf": 0.7999999999999999
+  },
+  {
+    "date": "2023-01-09",
+    "index": 1170,
+    "regime": "bull",
+    "conf": 0.7999999999999999
+  },
+  {
+    "date": "2023-01-10",
+    "index": 1171,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-01-11",
+    "index": 1172,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-01-12",
+    "index": 1173,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-01-13",
+    "index": 1174,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-01-16",
+    "index": 1175,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-01-17",
+    "index": 1176,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-01-18",
+    "index": 1177,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-01-19",
+    "index": 1178,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-01-20",
+    "index": 1179,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-01-30",
+    "index": 1180,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-01-31",
+    "index": 1181,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-02-01",
+    "index": 1182,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-02-02",
+    "index": 1183,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-02-03",
+    "index": 1184,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-02-06",
+    "index": 1185,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-02-07",
+    "index": 1186,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-02-08",
+    "index": 1187,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-02-09",
+    "index": 1188,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-02-10",
+    "index": 1189,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-02-13",
+    "index": 1190,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-02-14",
+    "index": 1191,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-02-15",
+    "index": 1192,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-02-16",
+    "index": 1193,
+    "regime": "bull",
+    "conf": 0.7749999999999999
+  },
+  {
+    "date": "2023-02-17",
+    "index": 1194,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2023-02-20",
+    "index": 1195,
+    "regime": "bull",
+    "conf": 0.7749999999999999
+  },
+  {
+    "date": "2023-02-21",
+    "index": 1196,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-02-22",
+    "index": 1197,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-02-23",
+    "index": 1198,
+    "regime": "bull",
+    "conf": 0.7749999999999999
+  },
+  {
+    "date": "2023-02-24",
+    "index": 1199,
+    "regime": "bull",
+    "conf": 0.6499999999999999
+  },
+  {
+    "date": "2023-02-27",
+    "index": 1200,
+    "regime": "neutral",
+    "conf": 0.5499999999999999
+  },
+  {
+    "date": "2023-02-28",
+    "index": 1201,
+    "regime": "bull",
+    "conf": 0.7749999999999999
+  },
+  {
+    "date": "2023-03-01",
+    "index": 1202,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-03-02",
+    "index": 1203,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-03-03",
+    "index": 1204,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-03-06",
+    "index": 1205,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-03-07",
+    "index": 1206,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2023-03-08",
+    "index": 1207,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2023-03-09",
+    "index": 1208,
+    "regime": "neutral",
+    "conf": 0.5
+  },
+  {
+    "date": "2023-03-10",
+    "index": 1209,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2023-03-13",
+    "index": 1210,
+    "regime": "neutral",
+    "conf": 0.5
+  },
+  {
+    "date": "2023-03-14",
+    "index": 1211,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2023-03-15",
+    "index": 1212,
+    "regime": "neutral",
+    "conf": 0.5
+  },
+  {
+    "date": "2023-03-16",
+    "index": 1213,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2023-03-17",
+    "index": 1214,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2023-03-20",
+    "index": 1215,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2023-03-21",
+    "index": 1216,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2023-03-22",
+    "index": 1217,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2023-03-23",
+    "index": 1218,
+    "regime": "neutral",
+    "conf": 0.47500000000000003
+  },
+  {
+    "date": "2023-03-24",
+    "index": 1219,
+    "regime": "neutral",
+    "conf": 0.47500000000000003
+  },
+  {
+    "date": "2023-03-27",
+    "index": 1220,
+    "regime": "neutral",
+    "conf": 0.47500000000000003
+  },
+  {
+    "date": "2023-03-28",
+    "index": 1221,
+    "regime": "neutral",
+    "conf": 0.47500000000000003
+  },
+  {
+    "date": "2023-03-29",
+    "index": 1222,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2023-03-30",
+    "index": 1223,
+    "regime": "neutral",
+    "conf": 0.5
+  },
+  {
+    "date": "2023-03-31",
+    "index": 1224,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2023-04-03",
+    "index": 1225,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-04-04",
+    "index": 1226,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2023-04-06",
+    "index": 1227,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2023-04-07",
+    "index": 1228,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-04-10",
+    "index": 1229,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-04-11",
+    "index": 1230,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-04-12",
+    "index": 1231,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-04-13",
+    "index": 1232,
+    "regime": "bull",
+    "conf": 0.7749999999999999
+  },
+  {
+    "date": "2023-04-14",
+    "index": 1233,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-04-17",
+    "index": 1234,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2023-04-18",
+    "index": 1235,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2023-04-19",
+    "index": 1236,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-04-20",
+    "index": 1237,
+    "regime": "neutral",
+    "conf": 0.5
+  },
+  {
+    "date": "2023-04-21",
+    "index": 1238,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2023-04-24",
+    "index": 1239,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2023-04-25",
+    "index": 1240,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2023-04-26",
+    "index": 1241,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2023-04-27",
+    "index": 1242,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2023-04-28",
+    "index": 1243,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2023-05-04",
+    "index": 1244,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2023-05-05",
+    "index": 1245,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2023-05-08",
+    "index": 1246,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2023-05-09",
+    "index": 1247,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2023-05-10",
+    "index": 1248,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2023-05-11",
+    "index": 1249,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2023-05-12",
+    "index": 1250,
+    "regime": "bear",
+    "conf": 0.0
+  },
+  {
+    "date": "2023-05-15",
+    "index": 1251,
+    "regime": "bear",
+    "conf": 0.0
+  },
+  {
+    "date": "2023-05-16",
+    "index": 1252,
+    "regime": "bear",
+    "conf": 0.0
+  },
+  {
+    "date": "2023-05-17",
+    "index": 1253,
+    "regime": "bear",
+    "conf": 0.0
+  },
+  {
+    "date": "2023-05-18",
+    "index": 1254,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2023-05-19",
+    "index": 1255,
+    "regime": "bear",
+    "conf": 0.0
+  },
+  {
+    "date": "2023-05-22",
+    "index": 1256,
+    "regime": "bear",
+    "conf": 0.0
+  },
+  {
+    "date": "2023-05-23",
+    "index": 1257,
+    "regime": "bear",
+    "conf": 0.0
+  },
+  {
+    "date": "2023-05-24",
+    "index": 1258,
+    "regime": "bear",
+    "conf": 0.0
+  },
+  {
+    "date": "2023-05-25",
+    "index": 1259,
+    "regime": "bear",
+    "conf": 0.0
+  },
+  {
+    "date": "2023-05-26",
+    "index": 1260,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-05-29",
+    "index": 1261,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-05-30",
+    "index": 1262,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-05-31",
+    "index": 1263,
+    "regime": "bear",
+    "conf": 0.0
+  },
+  {
+    "date": "2023-06-01",
+    "index": 1264,
+    "regime": "bear",
+    "conf": 0.125
+  },
+  {
+    "date": "2023-06-02",
+    "index": 1265,
+    "regime": "neutral",
+    "conf": 0.4
+  },
+  {
+    "date": "2023-06-05",
+    "index": 1266,
+    "regime": "neutral",
+    "conf": 0.4
+  },
+  {
+    "date": "2023-06-06",
+    "index": 1267,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-06-07",
+    "index": 1268,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-06-08",
+    "index": 1269,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2023-06-09",
+    "index": 1270,
+    "regime": "neutral",
+    "conf": 0.5
+  },
+  {
+    "date": "2023-06-12",
+    "index": 1271,
+    "regime": "neutral",
+    "conf": 0.5
+  },
+  {
+    "date": "2023-06-13",
+    "index": 1272,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2023-06-14",
+    "index": 1273,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2023-06-15",
+    "index": 1274,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-06-16",
+    "index": 1275,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-06-19",
+    "index": 1276,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-06-20",
+    "index": 1277,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-06-21",
+    "index": 1278,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-06-26",
+    "index": 1279,
+    "regime": "neutral",
+    "conf": 0.42500000000000004
+  },
+  {
+    "date": "2023-06-27",
+    "index": 1280,
+    "regime": "neutral",
+    "conf": 0.42500000000000004
+  },
+  {
+    "date": "2023-06-28",
+    "index": 1281,
+    "regime": "neutral",
+    "conf": 0.42500000000000004
+  },
+  {
+    "date": "2023-06-29",
+    "index": 1282,
+    "regime": "bear",
+    "conf": 0.30000000000000004
+  },
+  {
+    "date": "2023-06-30",
+    "index": 1283,
+    "regime": "neutral",
+    "conf": 0.42500000000000004
+  },
+  {
+    "date": "2023-07-03",
+    "index": 1284,
+    "regime": "bull",
+    "conf": 0.55
+  },
+  {
+    "date": "2023-07-04",
+    "index": 1285,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-07-05",
+    "index": 1286,
+    "regime": "neutral",
+    "conf": 0.42500000000000004
+  },
+  {
+    "date": "2023-07-06",
+    "index": 1287,
+    "regime": "neutral",
+    "conf": 0.42500000000000004
+  },
+  {
+    "date": "2023-07-07",
+    "index": 1288,
+    "regime": "bear",
+    "conf": 0.30000000000000004
+  },
+  {
+    "date": "2023-07-10",
+    "index": 1289,
+    "regime": "neutral",
+    "conf": 0.42500000000000004
+  },
+  {
+    "date": "2023-07-11",
+    "index": 1290,
+    "regime": "neutral",
+    "conf": 0.42500000000000004
+  },
+  {
+    "date": "2023-07-12",
+    "index": 1291,
+    "regime": "bear",
+    "conf": 0.325
+  },
+  {
+    "date": "2023-07-13",
+    "index": 1292,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2023-07-14",
+    "index": 1293,
+    "regime": "bear",
+    "conf": 0.325
+  },
+  {
+    "date": "2023-07-17",
+    "index": 1294,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-07-18",
+    "index": 1295,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-07-19",
+    "index": 1296,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-07-20",
+    "index": 1297,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-07-21",
+    "index": 1298,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-07-24",
+    "index": 1299,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-07-25",
+    "index": 1300,
+    "regime": "neutral",
+    "conf": 0.5
+  },
+  {
+    "date": "2023-07-26",
+    "index": 1301,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-07-27",
+    "index": 1302,
+    "regime": "bear",
+    "conf": 0.325
+  },
+  {
+    "date": "2023-07-28",
+    "index": 1303,
+    "regime": "neutral",
+    "conf": 0.5
+  },
+  {
+    "date": "2023-07-31",
+    "index": 1304,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2023-08-01",
+    "index": 1305,
+    "regime": "neutral",
+    "conf": 0.5
+  },
+  {
+    "date": "2023-08-02",
+    "index": 1306,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2023-08-03",
+    "index": 1307,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2023-08-04",
+    "index": 1308,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-08-07",
+    "index": 1309,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-08-08",
+    "index": 1310,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-08-09",
+    "index": 1311,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2023-08-10",
+    "index": 1312,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2023-08-11",
+    "index": 1313,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-08-14",
+    "index": 1314,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-08-15",
+    "index": 1315,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-08-16",
+    "index": 1316,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-08-17",
+    "index": 1317,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-08-18",
+    "index": 1318,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-08-21",
+    "index": 1319,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-08-22",
+    "index": 1320,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-08-23",
+    "index": 1321,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-08-24",
+    "index": 1322,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-08-25",
+    "index": 1323,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-08-28",
+    "index": 1324,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-08-29",
+    "index": 1325,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-08-30",
+    "index": 1326,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-08-31",
+    "index": 1327,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-09-01",
+    "index": 1328,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-09-04",
+    "index": 1329,
+    "regime": "bear",
+    "conf": 0.225
+  },
+  {
+    "date": "2023-09-05",
+    "index": 1330,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-09-06",
+    "index": 1331,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-09-07",
+    "index": 1332,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-09-08",
+    "index": 1333,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-09-11",
+    "index": 1334,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-09-12",
+    "index": 1335,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-09-13",
+    "index": 1336,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-09-14",
+    "index": 1337,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-09-15",
+    "index": 1338,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-09-18",
+    "index": 1339,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-09-19",
+    "index": 1340,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-09-20",
+    "index": 1341,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-09-21",
+    "index": 1342,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-09-22",
+    "index": 1343,
+    "regime": "bear",
+    "conf": 0.30000000000000004
+  },
+  {
+    "date": "2023-09-25",
+    "index": 1344,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-09-26",
+    "index": 1345,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-09-27",
+    "index": 1346,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-09-28",
+    "index": 1347,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-10-09",
+    "index": 1348,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-10-10",
+    "index": 1349,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-10-11",
+    "index": 1350,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-10-12",
+    "index": 1351,
+    "regime": "bear",
+    "conf": 0.225
+  },
+  {
+    "date": "2023-10-13",
+    "index": 1352,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-10-16",
+    "index": 1353,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-10-17",
+    "index": 1354,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-10-18",
+    "index": 1355,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-10-19",
+    "index": 1356,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-10-20",
+    "index": 1357,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-10-23",
+    "index": 1358,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-10-24",
+    "index": 1359,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-10-25",
+    "index": 1360,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-10-26",
+    "index": 1361,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-10-27",
+    "index": 1362,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-10-30",
+    "index": 1363,
+    "regime": "bear",
+    "conf": 0.225
+  },
+  {
+    "date": "2023-10-31",
+    "index": 1364,
+    "regime": "bear",
+    "conf": 0.225
+  },
+  {
+    "date": "2023-11-01",
+    "index": 1365,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-11-02",
+    "index": 1366,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-11-03",
+    "index": 1367,
+    "regime": "bear",
+    "conf": 0.225
+  },
+  {
+    "date": "2023-11-06",
+    "index": 1368,
+    "regime": "neutral",
+    "conf": 0.44999999999999996
+  },
+  {
+    "date": "2023-11-07",
+    "index": 1369,
+    "regime": "neutral",
+    "conf": 0.44999999999999996
+  },
+  {
+    "date": "2023-11-08",
+    "index": 1370,
+    "regime": "neutral",
+    "conf": 0.44999999999999996
+  },
+  {
+    "date": "2023-11-09",
+    "index": 1371,
+    "regime": "neutral",
+    "conf": 0.44999999999999996
+  },
+  {
+    "date": "2023-11-10",
+    "index": 1372,
+    "regime": "neutral",
+    "conf": 0.44999999999999996
+  },
+  {
+    "date": "2023-11-13",
+    "index": 1373,
+    "regime": "bull",
+    "conf": 0.55
+  },
+  {
+    "date": "2023-11-14",
+    "index": 1374,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-11-15",
+    "index": 1375,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-11-16",
+    "index": 1376,
+    "regime": "bull",
+    "conf": 0.55
+  },
+  {
+    "date": "2023-11-17",
+    "index": 1377,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-11-20",
+    "index": 1378,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-11-21",
+    "index": 1379,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2023-11-22",
+    "index": 1380,
+    "regime": "neutral",
+    "conf": 0.42500000000000004
+  },
+  {
+    "date": "2023-11-23",
+    "index": 1381,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2023-11-24",
+    "index": 1382,
+    "regime": "bear",
+    "conf": 0.30000000000000004
+  },
+  {
+    "date": "2023-11-27",
+    "index": 1383,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-11-28",
+    "index": 1384,
+    "regime": "bear",
+    "conf": 0.30000000000000004
+  },
+  {
+    "date": "2023-11-29",
+    "index": 1385,
+    "regime": "bear",
+    "conf": 0.30000000000000004
+  },
+  {
+    "date": "2023-11-30",
+    "index": 1386,
+    "regime": "neutral",
+    "conf": 0.4
+  },
+  {
+    "date": "2023-12-01",
+    "index": 1387,
+    "regime": "neutral",
+    "conf": 0.4
+  },
+  {
+    "date": "2023-12-04",
+    "index": 1388,
+    "regime": "bear",
+    "conf": 0.30000000000000004
+  },
+  {
+    "date": "2023-12-05",
+    "index": 1389,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-12-06",
+    "index": 1390,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-12-07",
+    "index": 1391,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-12-08",
+    "index": 1392,
+    "regime": "bear",
+    "conf": 0.30000000000000004
+  },
+  {
+    "date": "2023-12-11",
+    "index": 1393,
+    "regime": "bear",
+    "conf": 0.30000000000000004
+  },
+  {
+    "date": "2023-12-12",
+    "index": 1394,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-12-13",
+    "index": 1395,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-12-14",
+    "index": 1396,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-12-15",
+    "index": 1397,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-12-18",
+    "index": 1398,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-12-19",
+    "index": 1399,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-12-20",
+    "index": 1400,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-12-21",
+    "index": 1401,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-12-22",
+    "index": 1402,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-12-25",
+    "index": 1403,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-12-26",
+    "index": 1404,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-12-27",
+    "index": 1405,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2023-12-28",
+    "index": 1406,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2023-12-29",
+    "index": 1407,
+    "regime": "bear",
+    "conf": 0.225
+  },
+  {
+    "date": "2024-01-02",
+    "index": 1408,
+    "regime": "bear",
+    "conf": 0.225
+  },
+  {
+    "date": "2024-01-03",
+    "index": 1409,
+    "regime": "bear",
+    "conf": 0.325
+  },
+  {
+    "date": "2024-01-04",
+    "index": 1410,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-05",
+    "index": 1411,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-08",
+    "index": 1412,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-09",
+    "index": 1413,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-10",
+    "index": 1414,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-11",
+    "index": 1415,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-12",
+    "index": 1416,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-15",
+    "index": 1417,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-16",
+    "index": 1418,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-17",
+    "index": 1419,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-18",
+    "index": 1420,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-19",
+    "index": 1421,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-22",
+    "index": 1422,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-23",
+    "index": 1423,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-24",
+    "index": 1424,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-25",
+    "index": 1425,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-01-26",
+    "index": 1426,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-29",
+    "index": 1427,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-30",
+    "index": 1428,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-01-31",
+    "index": 1429,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-02-01",
+    "index": 1430,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-02-02",
+    "index": 1431,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-02-05",
+    "index": 1432,
+    "regime": "bear",
+    "conf": 0.0
+  },
+  {
+    "date": "2024-02-06",
+    "index": 1433,
+    "regime": "bear",
+    "conf": 0.0
+  },
+  {
+    "date": "2024-02-07",
+    "index": 1434,
+    "regime": "bear",
+    "conf": 0.125
+  },
+  {
+    "date": "2024-02-08",
+    "index": 1435,
+    "regime": "bear",
+    "conf": 0.25
+  },
+  {
+    "date": "2024-02-19",
+    "index": 1436,
+    "regime": "neutral",
+    "conf": 0.35
+  },
+  {
+    "date": "2024-02-20",
+    "index": 1437,
+    "regime": "neutral",
+    "conf": 0.35
+  },
+  {
+    "date": "2024-02-21",
+    "index": 1438,
+    "regime": "neutral",
+    "conf": 0.35
+  },
+  {
+    "date": "2024-02-22",
+    "index": 1439,
+    "regime": "neutral",
+    "conf": 0.45
+  },
+  {
+    "date": "2024-02-23",
+    "index": 1440,
+    "regime": "neutral",
+    "conf": 0.45
+  },
+  {
+    "date": "2024-02-26",
+    "index": 1441,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-02-27",
+    "index": 1442,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-02-28",
+    "index": 1443,
+    "regime": "neutral",
+    "conf": 0.45
+  },
+  {
+    "date": "2024-02-29",
+    "index": 1444,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-01",
+    "index": 1445,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-04",
+    "index": 1446,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-05",
+    "index": 1447,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-06",
+    "index": 1448,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-07",
+    "index": 1449,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-08",
+    "index": 1450,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-11",
+    "index": 1451,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-12",
+    "index": 1452,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-13",
+    "index": 1453,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-14",
+    "index": 1454,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-15",
+    "index": 1455,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-18",
+    "index": 1456,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-19",
+    "index": 1457,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-20",
+    "index": 1458,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-21",
+    "index": 1459,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-22",
+    "index": 1460,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2024-03-25",
+    "index": 1461,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2024-03-26",
+    "index": 1462,
+    "regime": "neutral",
+    "conf": 0.47500000000000003
+  },
+  {
+    "date": "2024-03-27",
+    "index": 1463,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2024-03-28",
+    "index": 1464,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2024-03-29",
+    "index": 1465,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2024-04-01",
+    "index": 1466,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2024-04-02",
+    "index": 1467,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2024-04-03",
+    "index": 1468,
+    "regime": "neutral",
+    "conf": 0.5
+  },
+  {
+    "date": "2024-04-08",
+    "index": 1469,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2024-04-09",
+    "index": 1470,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2024-04-10",
+    "index": 1471,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2024-04-11",
+    "index": 1472,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2024-04-12",
+    "index": 1473,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2024-04-15",
+    "index": 1474,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2024-04-16",
+    "index": 1475,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2024-04-17",
+    "index": 1476,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2024-04-18",
+    "index": 1477,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2024-04-19",
+    "index": 1478,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2024-04-22",
+    "index": 1479,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2024-04-23",
+    "index": 1480,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2024-04-24",
+    "index": 1481,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2024-04-25",
+    "index": 1482,
+    "regime": "neutral",
+    "conf": 0.5499999999999999
+  },
+  {
+    "date": "2024-04-26",
+    "index": 1483,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2024-04-29",
+    "index": 1484,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2024-04-30",
+    "index": 1485,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2024-05-06",
+    "index": 1486,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2024-05-07",
+    "index": 1487,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2024-05-08",
+    "index": 1488,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2024-05-09",
+    "index": 1489,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2024-05-10",
+    "index": 1490,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2024-05-13",
+    "index": 1491,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2024-05-14",
+    "index": 1492,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2024-05-15",
+    "index": 1493,
+    "regime": "bull",
+    "conf": 0.7749999999999999
+  },
+  {
+    "date": "2024-05-16",
+    "index": 1494,
+    "regime": "bull",
+    "conf": 0.7749999999999999
+  },
+  {
+    "date": "2024-05-17",
+    "index": 1495,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2024-05-20",
+    "index": 1496,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2024-05-21",
+    "index": 1497,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2024-05-22",
+    "index": 1498,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2024-05-23",
+    "index": 1499,
+    "regime": "neutral",
+    "conf": 0.47500000000000003
+  },
+  {
+    "date": "2024-05-24",
+    "index": 1500,
+    "regime": "neutral",
+    "conf": 0.47500000000000003
+  },
+  {
+    "date": "2024-05-27",
+    "index": 1501,
+    "regime": "neutral",
+    "conf": 0.47500000000000003
+  },
+  {
+    "date": "2024-05-28",
+    "index": 1502,
+    "regime": "bear",
+    "conf": 0.30000000000000004
+  },
+  {
+    "date": "2024-05-29",
+    "index": 1503,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2024-05-30",
+    "index": 1504,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-05-31",
+    "index": 1505,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-06-03",
+    "index": 1506,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-06-04",
+    "index": 1507,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2024-06-05",
+    "index": 1508,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-06-06",
+    "index": 1509,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-06-07",
+    "index": 1510,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-06-11",
+    "index": 1511,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-06-12",
+    "index": 1512,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-06-13",
+    "index": 1513,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-06-14",
+    "index": 1514,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-06-17",
+    "index": 1515,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-06-18",
+    "index": 1516,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-06-19",
+    "index": 1517,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-06-20",
+    "index": 1518,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-06-21",
+    "index": 1519,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-06-24",
+    "index": 1520,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-06-25",
+    "index": 1521,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-06-26",
+    "index": 1522,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-06-27",
+    "index": 1523,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-06-28",
+    "index": 1524,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-01",
+    "index": 1525,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-02",
+    "index": 1526,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-03",
+    "index": 1527,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-04",
+    "index": 1528,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-05",
+    "index": 1529,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-08",
+    "index": 1530,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-09",
+    "index": 1531,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-10",
+    "index": 1532,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-11",
+    "index": 1533,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-12",
+    "index": 1534,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-15",
+    "index": 1535,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-16",
+    "index": 1536,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-17",
+    "index": 1537,
+    "regime": "bear",
+    "conf": 0.225
+  },
+  {
+    "date": "2024-07-18",
+    "index": 1538,
+    "regime": "bear",
+    "conf": 0.325
+  },
+  {
+    "date": "2024-07-19",
+    "index": 1539,
+    "regime": "bear",
+    "conf": 0.325
+  },
+  {
+    "date": "2024-07-22",
+    "index": 1540,
+    "regime": "bear",
+    "conf": 0.325
+  },
+  {
+    "date": "2024-07-23",
+    "index": 1541,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-07-24",
+    "index": 1542,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-25",
+    "index": 1543,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-26",
+    "index": 1544,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-07-29",
+    "index": 1545,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-30",
+    "index": 1546,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-07-31",
+    "index": 1547,
+    "regime": "neutral",
+    "conf": 0.44999999999999996
+  },
+  {
+    "date": "2024-08-01",
+    "index": 1548,
+    "regime": "neutral",
+    "conf": 0.42500000000000004
+  },
+  {
+    "date": "2024-08-02",
+    "index": 1549,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-08-05",
+    "index": 1550,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-08-06",
+    "index": 1551,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-08-07",
+    "index": 1552,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-08-08",
+    "index": 1553,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-08-09",
+    "index": 1554,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-08-12",
+    "index": 1555,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-08-13",
+    "index": 1556,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-08-14",
+    "index": 1557,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-08-15",
+    "index": 1558,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-08-16",
+    "index": 1559,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-08-19",
+    "index": 1560,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-08-20",
+    "index": 1561,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-08-21",
+    "index": 1562,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-08-22",
+    "index": 1563,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-08-23",
+    "index": 1564,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-08-26",
+    "index": 1565,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-08-27",
+    "index": 1566,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-08-28",
+    "index": 1567,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-08-29",
+    "index": 1568,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-08-30",
+    "index": 1569,
+    "regime": "bear",
+    "conf": 0.225
+  },
+  {
+    "date": "2024-09-02",
+    "index": 1570,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-09-03",
+    "index": 1571,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-09-04",
+    "index": 1572,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-09-05",
+    "index": 1573,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-09-06",
+    "index": 1574,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-09-09",
+    "index": 1575,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-09-10",
+    "index": 1576,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-09-11",
+    "index": 1577,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-09-12",
+    "index": 1578,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2024-09-13",
+    "index": 1579,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-09-18",
+    "index": 1580,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2024-09-19",
+    "index": 1581,
+    "regime": "neutral",
+    "conf": 0.42500000000000004
+  },
+  {
+    "date": "2024-09-20",
+    "index": 1582,
+    "regime": "bear",
+    "conf": 0.30000000000000004
+  },
+  {
+    "date": "2024-09-23",
+    "index": 1583,
+    "regime": "bear",
+    "conf": 0.30000000000000004
+  },
+  {
+    "date": "2024-09-24",
+    "index": 1584,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2024-09-25",
+    "index": 1585,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2024-09-26",
+    "index": 1586,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2024-09-27",
+    "index": 1587,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-09-30",
+    "index": 1588,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-08",
+    "index": 1589,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-09",
+    "index": 1590,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-10",
+    "index": 1591,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-11",
+    "index": 1592,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-14",
+    "index": 1593,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-15",
+    "index": 1594,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-16",
+    "index": 1595,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-17",
+    "index": 1596,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-18",
+    "index": 1597,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-21",
+    "index": 1598,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-22",
+    "index": 1599,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-23",
+    "index": 1600,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-24",
+    "index": 1601,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-25",
+    "index": 1602,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-28",
+    "index": 1603,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-29",
+    "index": 1604,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-30",
+    "index": 1605,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-10-31",
+    "index": 1606,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2024-11-01",
+    "index": 1607,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2024-11-04",
+    "index": 1608,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-11-05",
+    "index": 1609,
+    "regime": "bull",
+    "conf": 0.7
+  },
+  {
+    "date": "2024-11-06",
+    "index": 1610,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-11-07",
+    "index": 1611,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-11-08",
+    "index": 1612,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-11-11",
+    "index": 1613,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-11-12",
+    "index": 1614,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-11-13",
+    "index": 1615,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-11-14",
+    "index": 1616,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-11-15",
+    "index": 1617,
+    "regime": "bull",
+    "conf": 0.55
+  },
+  {
+    "date": "2024-11-18",
+    "index": 1618,
+    "regime": "bull",
+    "conf": 0.55
+  },
+  {
+    "date": "2024-11-19",
+    "index": 1619,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2024-11-20",
+    "index": 1620,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-11-21",
+    "index": 1621,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2024-11-22",
+    "index": 1622,
+    "regime": "bull",
+    "conf": 0.55
+  },
+  {
+    "date": "2024-11-25",
+    "index": 1623,
+    "regime": "neutral",
+    "conf": 0.44999999999999996
+  },
+  {
+    "date": "2024-11-26",
+    "index": 1624,
+    "regime": "neutral",
+    "conf": 0.44999999999999996
+  },
+  {
+    "date": "2024-11-27",
+    "index": 1625,
+    "regime": "bull",
+    "conf": 0.55
+  },
+  {
+    "date": "2024-11-28",
+    "index": 1626,
+    "regime": "bull",
+    "conf": 0.55
+  },
+  {
+    "date": "2024-11-29",
+    "index": 1627,
+    "regime": "bull",
+    "conf": 0.55
+  },
+  {
+    "date": "2024-12-02",
+    "index": 1628,
+    "regime": "bull",
+    "conf": 0.55
+  },
+  {
+    "date": "2024-12-03",
+    "index": 1629,
+    "regime": "neutral",
+    "conf": 0.44999999999999996
+  },
+  {
+    "date": "2024-12-04",
+    "index": 1630,
+    "regime": "neutral",
+    "conf": 0.44999999999999996
+  },
+  {
+    "date": "2024-12-05",
+    "index": 1631,
+    "regime": "neutral",
+    "conf": 0.35
+  },
+  {
+    "date": "2024-12-06",
+    "index": 1632,
+    "regime": "bull",
+    "conf": 0.7
+  },
+  {
+    "date": "2024-12-09",
+    "index": 1633,
+    "regime": "neutral",
+    "conf": 0.475
+  },
+  {
+    "date": "2024-12-10",
+    "index": 1634,
+    "regime": "bull",
+    "conf": 0.7
+  },
+  {
+    "date": "2024-12-11",
+    "index": 1635,
+    "regime": "bull",
+    "conf": 0.7
+  },
+  {
+    "date": "2024-12-12",
+    "index": 1636,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-12-13",
+    "index": 1637,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2024-12-16",
+    "index": 1638,
+    "regime": "bull",
+    "conf": 0.6499999999999999
+  },
+  {
+    "date": "2024-12-17",
+    "index": 1639,
+    "regime": "neutral",
+    "conf": 0.44999999999999996
+  },
+  {
+    "date": "2024-12-18",
+    "index": 1640,
+    "regime": "neutral",
+    "conf": 0.5499999999999999
+  },
+  {
+    "date": "2024-12-19",
+    "index": 1641,
+    "regime": "bull",
+    "conf": 0.6749999999999999
+  },
+  {
+    "date": "2024-12-20",
+    "index": 1642,
+    "regime": "bull",
+    "conf": 0.7749999999999999
+  },
+  {
+    "date": "2024-12-23",
+    "index": 1643,
+    "regime": "neutral",
+    "conf": 0.47500000000000003
+  },
+  {
+    "date": "2024-12-24",
+    "index": 1644,
+    "regime": "bull",
+    "conf": 0.6499999999999999
+  },
+  {
+    "date": "2024-12-25",
+    "index": 1645,
+    "regime": "neutral",
+    "conf": 0.5499999999999999
+  },
+  {
+    "date": "2024-12-26",
+    "index": 1646,
+    "regime": "neutral",
+    "conf": 0.47500000000000003
+  },
+  {
+    "date": "2024-12-27",
+    "index": 1647,
+    "regime": "neutral",
+    "conf": 0.5499999999999999
+  },
+  {
+    "date": "2024-12-30",
+    "index": 1648,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2024-12-31",
+    "index": 1649,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2025-01-02",
+    "index": 1650,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2025-01-03",
+    "index": 1651,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2025-01-06",
+    "index": 1652,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2025-01-07",
+    "index": 1653,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2025-01-08",
+    "index": 1654,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2025-01-09",
+    "index": 1655,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2025-01-10",
+    "index": 1656,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2025-01-13",
+    "index": 1657,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2025-01-14",
+    "index": 1658,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2025-01-15",
+    "index": 1659,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2025-01-16",
+    "index": 1660,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2025-01-17",
+    "index": 1661,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2025-01-20",
+    "index": 1662,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2025-01-21",
+    "index": 1663,
+    "regime": "bear",
+    "conf": 0.225
+  },
+  {
+    "date": "2025-01-22",
+    "index": 1664,
+    "regime": "bear",
+    "conf": 0.225
+  },
+  {
+    "date": "2025-01-23",
+    "index": 1665,
+    "regime": "bear",
+    "conf": 0.225
+  },
+  {
+    "date": "2025-01-24",
+    "index": 1666,
+    "regime": "neutral",
+    "conf": 0.35
+  },
+  {
+    "date": "2025-01-27",
+    "index": 1667,
+    "regime": "neutral",
+    "conf": 0.35
+  },
+  {
+    "date": "2025-02-05",
+    "index": 1668,
+    "regime": "bear",
+    "conf": 0.225
+  },
+  {
+    "date": "2025-02-06",
+    "index": 1669,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-02-07",
+    "index": 1670,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-02-10",
+    "index": 1671,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-02-11",
+    "index": 1672,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-02-12",
+    "index": 1673,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-02-13",
+    "index": 1674,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-02-14",
+    "index": 1675,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-02-17",
+    "index": 1676,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-02-18",
+    "index": 1677,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-02-19",
+    "index": 1678,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-02-20",
+    "index": 1679,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-02-21",
+    "index": 1680,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-02-24",
+    "index": 1681,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-02-25",
+    "index": 1682,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-02-26",
+    "index": 1683,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-02-27",
+    "index": 1684,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-02-28",
+    "index": 1685,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2025-03-03",
+    "index": 1686,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2025-03-04",
+    "index": 1687,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2025-03-05",
+    "index": 1688,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2025-03-06",
+    "index": 1689,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-03-07",
+    "index": 1690,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-03-10",
+    "index": 1691,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2025-03-11",
+    "index": 1692,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-03-12",
+    "index": 1693,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2025-03-13",
+    "index": 1694,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2025-03-14",
+    "index": 1695,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-03-17",
+    "index": 1696,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-03-18",
+    "index": 1697,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-03-19",
+    "index": 1698,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-03-20",
+    "index": 1699,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-03-21",
+    "index": 1700,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2025-03-24",
+    "index": 1701,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2025-03-25",
+    "index": 1702,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2025-03-26",
+    "index": 1703,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2025-03-27",
+    "index": 1704,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2025-03-28",
+    "index": 1705,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2025-03-31",
+    "index": 1706,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2025-04-01",
+    "index": 1707,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2025-04-02",
+    "index": 1708,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2025-04-03",
+    "index": 1709,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2025-04-07",
+    "index": 1710,
+    "regime": "bear",
+    "conf": 0.0
+  },
+  {
+    "date": "2025-04-08",
+    "index": 1711,
+    "regime": "bear",
+    "conf": 0.0
+  },
+  {
+    "date": "2025-04-09",
+    "index": 1712,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2025-04-10",
+    "index": 1713,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2025-04-11",
+    "index": 1714,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2025-04-14",
+    "index": 1715,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2025-04-15",
+    "index": 1716,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2025-04-16",
+    "index": 1717,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2025-04-17",
+    "index": 1718,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2025-04-18",
+    "index": 1719,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2025-04-21",
+    "index": 1720,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2025-04-22",
+    "index": 1721,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2025-04-23",
+    "index": 1722,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2025-04-24",
+    "index": 1723,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2025-04-25",
+    "index": 1724,
+    "regime": "bear",
+    "conf": 0.3
+  },
+  {
+    "date": "2025-04-28",
+    "index": 1725,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2025-04-29",
+    "index": 1726,
+    "regime": "bear",
+    "conf": 0.125
+  },
+  {
+    "date": "2025-04-30",
+    "index": 1727,
+    "regime": "neutral",
+    "conf": 0.425
+  },
+  {
+    "date": "2025-05-06",
+    "index": 1728,
+    "regime": "neutral",
+    "conf": 0.525
+  },
+  {
+    "date": "2025-05-07",
+    "index": 1729,
+    "regime": "neutral",
+    "conf": 0.35
+  },
+  {
+    "date": "2025-05-08",
+    "index": 1730,
+    "regime": "neutral",
+    "conf": 0.45
+  },
+  {
+    "date": "2025-05-09",
+    "index": 1731,
+    "regime": "neutral",
+    "conf": 0.45
+  },
+  {
+    "date": "2025-05-12",
+    "index": 1732,
+    "regime": "neutral",
+    "conf": 0.45
+  },
+  {
+    "date": "2025-05-13",
+    "index": 1733,
+    "regime": "neutral",
+    "conf": 0.45
+  },
+  {
+    "date": "2025-05-14",
+    "index": 1734,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2025-05-15",
+    "index": 1735,
+    "regime": "neutral",
+    "conf": 0.45
+  },
+  {
+    "date": "2025-05-16",
+    "index": 1736,
+    "regime": "neutral",
+    "conf": 0.45
+  },
+  {
+    "date": "2025-05-19",
+    "index": 1737,
+    "regime": "neutral",
+    "conf": 0.45
+  },
+  {
+    "date": "2025-05-20",
+    "index": 1738,
+    "regime": "neutral",
+    "conf": 0.45
+  },
+  {
+    "date": "2025-05-21",
+    "index": 1739,
+    "regime": "bull",
+    "conf": 0.825
+  },
+  {
+    "date": "2025-05-22",
+    "index": 1740,
+    "regime": "bull",
+    "conf": 0.65
+  },
+  {
+    "date": "2025-05-23",
+    "index": 1741,
+    "regime": "neutral",
+    "conf": 0.4
+  },
+  {
+    "date": "2025-05-26",
+    "index": 1742,
+    "regime": "neutral",
+    "conf": 0.525
+  },
+  {
+    "date": "2025-05-27",
+    "index": 1743,
+    "regime": "neutral",
+    "conf": 0.4
+  },
+  {
+    "date": "2025-05-28",
+    "index": 1744,
+    "regime": "neutral",
+    "conf": 0.4
+  },
+  {
+    "date": "2025-05-29",
+    "index": 1745,
+    "regime": "neutral",
+    "conf": 0.525
+  },
+  {
+    "date": "2025-05-30",
+    "index": 1746,
+    "regime": "neutral",
+    "conf": 0.4
+  },
+  {
+    "date": "2025-06-03",
+    "index": 1747,
+    "regime": "neutral",
+    "conf": 0.4
+  },
+  {
+    "date": "2025-06-04",
+    "index": 1748,
+    "regime": "bull",
+    "conf": 0.7
+  },
+  {
+    "date": "2025-06-05",
+    "index": 1749,
+    "regime": "bull",
+    "conf": 0.825
+  },
+  {
+    "date": "2025-06-06",
+    "index": 1750,
+    "regime": "bull",
+    "conf": 0.825
+  },
+  {
+    "date": "2025-06-09",
+    "index": 1751,
+    "regime": "bull",
+    "conf": 0.825
+  },
+  {
+    "date": "2025-06-10",
+    "index": 1752,
+    "regime": "bull",
+    "conf": 0.6
+  },
+  {
+    "date": "2025-06-11",
+    "index": 1753,
+    "regime": "bull",
+    "conf": 0.825
+  },
+  {
+    "date": "2025-06-12",
+    "index": 1754,
+    "regime": "bull",
+    "conf": 0.725
+  },
+  {
+    "date": "2025-06-13",
+    "index": 1755,
+    "regime": "bull",
+    "conf": 0.7
+  },
+  {
+    "date": "2025-06-16",
+    "index": 1756,
+    "regime": "bull",
+    "conf": 0.7
+  },
+  {
+    "date": "2025-06-17",
+    "index": 1757,
+    "regime": "bull",
+    "conf": 0.825
+  },
+  {
+    "date": "2025-06-18",
+    "index": 1758,
+    "regime": "bull",
+    "conf": 0.6
+  },
+  {
+    "date": "2025-06-19",
+    "index": 1759,
+    "regime": "neutral",
+    "conf": 0.475
+  },
+  {
+    "date": "2025-06-20",
+    "index": 1760,
+    "regime": "neutral",
+    "conf": 0.475
+  },
+  {
+    "date": "2025-06-23",
+    "index": 1761,
+    "regime": "bull",
+    "conf": 0.575
+  },
+  {
+    "date": "2025-06-24",
+    "index": 1762,
+    "regime": "bull",
+    "conf": 0.825
+  },
+  {
+    "date": "2025-06-25",
+    "index": 1763,
+    "regime": "bull",
+    "conf": 0.825
+  },
+  {
+    "date": "2025-06-26",
+    "index": 1764,
+    "regime": "bull",
+    "conf": 0.825
+  },
+  {
+    "date": "2025-06-27",
+    "index": 1765,
+    "regime": "bull",
+    "conf": 0.825
+  },
+  {
+    "date": "2025-06-30",
+    "index": 1766,
+    "regime": "bull",
+    "conf": 0.825
+  },
+  {
+    "date": "2025-07-01",
+    "index": 1767,
+    "regime": "bull",
+    "conf": 0.825
+  },
+  {
+    "date": "2025-07-02",
+    "index": 1768,
+    "regime": "bull",
+    "conf": 0.825
+  },
+  {
+    "date": "2025-07-03",
+    "index": 1769,
+    "regime": "bull",
+    "conf": 0.825
+  },
+  {
+    "date": "2025-07-04",
+    "index": 1770,
+    "regime": "bull",
+    "conf": 1.0
+  },
+  {
+    "date": "2025-07-07",
+    "index": 1771,
+    "regime": "bull",
+    "conf": 1.0
+  },
+  {
+    "date": "2025-07-08",
+    "index": 1772,
+    "regime": "bull",
+    "conf": 1.0
+  },
+  {
+    "date": "2025-07-09",
+    "index": 1773,
+    "regime": "bull",
+    "conf": 1.0
+  },
+  {
+    "date": "2025-07-10",
+    "index": 1774,
+    "regime": "bull",
+    "conf": 1.0
+  },
+  {
+    "date": "2025-07-11",
+    "index": 1775,
+    "regime": "bull",
+    "conf": 1.0
+  },
+  {
+    "date": "2025-07-14",
+    "index": 1776,
+    "regime": "bull",
+    "conf": 1.0
+  },
+  {
+    "date": "2025-07-15",
+    "index": 1777,
+    "regime": "bull",
+    "conf": 1.0
+  },
+  {
+    "date": "2025-07-16",
+    "index": 1778,
+    "regime": "bull",
+    "conf": 1.0
+  },
+  {
+    "date": "2025-07-17",
+    "index": 1779,
+    "regime": "bull",
+    "conf": 1.0
+  },
+  {
+    "date": "2025-07-18",
+    "index": 1780,
+    "regime": "bull",
+    "conf": 1.0
+  },
+  {
+    "date": "2025-07-21",
+    "index": 1781,
+    "regime": "bull",
+    "conf": 1.0
+  },
+  {
+    "date": "2025-07-22",
+    "index": 1782,
+    "regime": "bull",
+    "conf": 1.0
+  },
+  {
+    "date": "2025-07-23",
+    "index": 1783,
+    "regime": "bull",
+    "conf": 1.0
+  },
+  {
+    "date": "2025-07-24",
+    "index": 1784,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-07-25",
+    "index": 1785,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-07-28",
+    "index": 1786,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-07-29",
+    "index": 1787,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-07-30",
+    "index": 1788,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-07-31",
+    "index": 1789,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-01",
+    "index": 1790,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-04",
+    "index": 1791,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-05",
+    "index": 1792,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-06",
+    "index": 1793,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-07",
+    "index": 1794,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-08",
+    "index": 1795,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-11",
+    "index": 1796,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-12",
+    "index": 1797,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-13",
+    "index": 1798,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-14",
+    "index": 1799,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-15",
+    "index": 1800,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-18",
+    "index": 1801,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-19",
+    "index": 1802,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-20",
+    "index": 1803,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-21",
+    "index": 1804,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-22",
+    "index": 1805,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-25",
+    "index": 1806,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-26",
+    "index": 1807,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-27",
+    "index": 1808,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-28",
+    "index": 1809,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-08-29",
+    "index": 1810,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-09-01",
+    "index": 1811,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-09-02",
+    "index": 1812,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-09-03",
+    "index": 1813,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-09-04",
+    "index": 1814,
+    "regime": "bull",
+    "conf": 0.7749999999999999
+  },
+  {
+    "date": "2025-09-05",
+    "index": 1815,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-09-08",
+    "index": 1816,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-09-09",
+    "index": 1817,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-09-10",
+    "index": 1818,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-09-11",
+    "index": 1819,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-09-12",
+    "index": 1820,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2025-09-15",
+    "index": 1821,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2025-09-16",
+    "index": 1822,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2025-09-17",
+    "index": 1823,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2025-09-18",
+    "index": 1824,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2025-09-19",
+    "index": 1825,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2025-09-22",
+    "index": 1826,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2025-09-23",
+    "index": 1827,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2025-09-24",
+    "index": 1828,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2025-09-25",
+    "index": 1829,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2025-09-26",
+    "index": 1830,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2025-09-29",
+    "index": 1831,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2025-09-30",
+    "index": 1832,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2025-10-09",
+    "index": 1833,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2025-10-10",
+    "index": 1834,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2025-10-13",
+    "index": 1835,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2025-10-14",
+    "index": 1836,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2025-10-15",
+    "index": 1837,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2025-10-16",
+    "index": 1838,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2025-10-17",
+    "index": 1839,
+    "regime": "neutral",
+    "conf": 0.44999999999999996
+  },
+  {
+    "date": "2025-10-20",
+    "index": 1840,
+    "regime": "neutral",
+    "conf": 0.44999999999999996
+  },
+  {
+    "date": "2025-10-21",
+    "index": 1841,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2025-10-22",
+    "index": 1842,
+    "regime": "neutral",
+    "conf": 0.44999999999999996
+  },
+  {
+    "date": "2025-10-23",
+    "index": 1843,
+    "regime": "bull",
+    "conf": 0.6749999999999999
+  },
+  {
+    "date": "2025-10-24",
+    "index": 1844,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-10-27",
+    "index": 1845,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-10-28",
+    "index": 1846,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-10-29",
+    "index": 1847,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-10-30",
+    "index": 1848,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-10-31",
+    "index": 1849,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-11-03",
+    "index": 1850,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-11-04",
+    "index": 1851,
+    "regime": "neutral",
+    "conf": 0.5499999999999999
+  },
+  {
+    "date": "2025-11-05",
+    "index": 1852,
+    "regime": "bull",
+    "conf": 0.6749999999999999
+  },
+  {
+    "date": "2025-11-06",
+    "index": 1853,
+    "regime": "bull",
+    "conf": 0.7999999999999999
+  },
+  {
+    "date": "2025-11-07",
+    "index": 1854,
+    "regime": "bull",
+    "conf": 0.7749999999999999
+  },
+  {
+    "date": "2025-11-10",
+    "index": 1855,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-11-11",
+    "index": 1856,
+    "regime": "bull",
+    "conf": 0.7749999999999999
+  },
+  {
+    "date": "2025-11-12",
+    "index": 1857,
+    "regime": "bull",
+    "conf": 0.7749999999999999
+  },
+  {
+    "date": "2025-11-13",
+    "index": 1858,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2025-11-14",
+    "index": 1859,
+    "regime": "bull",
+    "conf": 0.7749999999999999
+  },
+  {
+    "date": "2025-11-17",
+    "index": 1860,
+    "regime": "bull",
+    "conf": 0.7749999999999999
+  },
+  {
+    "date": "2025-11-18",
+    "index": 1861,
+    "regime": "bull",
+    "conf": 0.6499999999999999
+  },
+  {
+    "date": "2025-11-19",
+    "index": 1862,
+    "regime": "neutral",
+    "conf": 0.47500000000000003
+  },
+  {
+    "date": "2025-11-20",
+    "index": 1863,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2025-11-21",
+    "index": 1864,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2025-11-24",
+    "index": 1865,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2025-11-25",
+    "index": 1866,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2025-11-26",
+    "index": 1867,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2025-11-27",
+    "index": 1868,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2025-11-28",
+    "index": 1869,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2025-12-01",
+    "index": 1870,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2025-12-02",
+    "index": 1871,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2025-12-03",
+    "index": 1872,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2025-12-04",
+    "index": 1873,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2025-12-05",
+    "index": 1874,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2025-12-08",
+    "index": 1875,
+    "regime": "neutral",
+    "conf": 0.5
+  },
+  {
+    "date": "2025-12-09",
+    "index": 1876,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2025-12-10",
+    "index": 1877,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2025-12-11",
+    "index": 1878,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2025-12-12",
+    "index": 1879,
+    "regime": "bear",
+    "conf": 0.325
+  },
+  {
+    "date": "2025-12-15",
+    "index": 1880,
+    "regime": "bear",
+    "conf": 0.325
+  },
+  {
+    "date": "2025-12-16",
+    "index": 1881,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2025-12-17",
+    "index": 1882,
+    "regime": "bear",
+    "conf": 0.325
+  },
+  {
+    "date": "2025-12-18",
+    "index": 1883,
+    "regime": "bear",
+    "conf": 0.325
+  },
+  {
+    "date": "2025-12-19",
+    "index": 1884,
+    "regime": "neutral",
+    "conf": 0.42500000000000004
+  },
+  {
+    "date": "2025-12-22",
+    "index": 1885,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-12-23",
+    "index": 1886,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-12-24",
+    "index": 1887,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-12-25",
+    "index": 1888,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-12-26",
+    "index": 1889,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-12-29",
+    "index": 1890,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-12-30",
+    "index": 1891,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2025-12-31",
+    "index": 1892,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2026-01-05",
+    "index": 1893,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2026-01-06",
+    "index": 1894,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2026-01-07",
+    "index": 1895,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2026-01-08",
+    "index": 1896,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-01-09",
+    "index": 1897,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-01-12",
+    "index": 1898,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-01-13",
+    "index": 1899,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-01-14",
+    "index": 1900,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-01-15",
+    "index": 1901,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-01-16",
+    "index": 1902,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-01-19",
+    "index": 1903,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-01-20",
+    "index": 1904,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-01-21",
+    "index": 1905,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-01-22",
+    "index": 1906,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-01-23",
+    "index": 1907,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-01-26",
+    "index": 1908,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-01-27",
+    "index": 1909,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-01-28",
+    "index": 1910,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-01-29",
+    "index": 1911,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-01-30",
+    "index": 1912,
+    "regime": "bull",
+    "conf": 0.7749999999999999
+  },
+  {
+    "date": "2026-02-02",
+    "index": 1913,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2026-02-03",
+    "index": 1914,
+    "regime": "bull",
+    "conf": 0.55
+  },
+  {
+    "date": "2026-02-04",
+    "index": 1915,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2026-02-05",
+    "index": 1916,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2026-02-06",
+    "index": 1917,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2026-02-09",
+    "index": 1918,
+    "regime": "bull",
+    "conf": 0.575
+  },
+  {
+    "date": "2026-02-10",
+    "index": 1919,
+    "regime": "bull",
+    "conf": 0.575
+  },
+  {
+    "date": "2026-02-11",
+    "index": 1920,
+    "regime": "bull",
+    "conf": 0.575
+  },
+  {
+    "date": "2026-02-12",
+    "index": 1921,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2026-02-13",
+    "index": 1922,
+    "regime": "neutral",
+    "conf": 0.44999999999999996
+  },
+  {
+    "date": "2026-02-24",
+    "index": 1923,
+    "regime": "bull",
+    "conf": 0.575
+  },
+  {
+    "date": "2026-02-25",
+    "index": 1924,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2026-02-26",
+    "index": 1925,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2026-02-27",
+    "index": 1926,
+    "regime": "bull",
+    "conf": 0.8
+  },
+  {
+    "date": "2026-03-02",
+    "index": 1927,
+    "regime": "bull",
+    "conf": 0.575
+  },
+  {
+    "date": "2026-03-03",
+    "index": 1928,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2026-03-04",
+    "index": 1929,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2026-03-05",
+    "index": 1930,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2026-03-06",
+    "index": 1931,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2026-03-09",
+    "index": 1932,
+    "regime": "neutral",
+    "conf": 0.44999999999999996
+  },
+  {
+    "date": "2026-03-10",
+    "index": 1933,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2026-03-11",
+    "index": 1934,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2026-03-12",
+    "index": 1935,
+    "regime": "bull",
+    "conf": 0.675
+  },
+  {
+    "date": "2026-03-13",
+    "index": 1936,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2026-03-16",
+    "index": 1937,
+    "regime": "neutral",
+    "conf": 0.375
+  },
+  {
+    "date": "2026-03-17",
+    "index": 1938,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2026-03-18",
+    "index": 1939,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2026-03-19",
+    "index": 1940,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2026-03-20",
+    "index": 1941,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2026-03-23",
+    "index": 1942,
+    "regime": "bear",
+    "conf": 0.175
+  },
+  {
+    "date": "2026-03-24",
+    "index": 1943,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2026-03-25",
+    "index": 1944,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2026-03-26",
+    "index": 1945,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2026-03-27",
+    "index": 1946,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2026-03-30",
+    "index": 1947,
+    "regime": "bear",
+    "conf": 0.275
+  },
+  {
+    "date": "2026-03-31",
+    "index": 1948,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2026-04-01",
+    "index": 1949,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2026-04-02",
+    "index": 1950,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2026-04-03",
+    "index": 1951,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2026-04-07",
+    "index": 1952,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2026-04-08",
+    "index": 1953,
+    "regime": "bear",
+    "conf": 0.125
+  },
+  {
+    "date": "2026-04-09",
+    "index": 1954,
+    "regime": "bear",
+    "conf": 0.125
+  },
+  {
+    "date": "2026-04-10",
+    "index": 1955,
+    "regime": "bear",
+    "conf": 0.25
+  },
+  {
+    "date": "2026-04-13",
+    "index": 1956,
+    "regime": "neutral",
+    "conf": 0.35
+  },
+  {
+    "date": "2026-04-14",
+    "index": 1957,
+    "regime": "neutral",
+    "conf": 0.35
+  },
+  {
+    "date": "2026-04-15",
+    "index": 1958,
+    "regime": "neutral",
+    "conf": 0.35
+  },
+  {
+    "date": "2026-04-16",
+    "index": 1959,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2026-04-17",
+    "index": 1960,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2026-04-20",
+    "index": 1961,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2026-04-21",
+    "index": 1962,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2026-04-22",
+    "index": 1963,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2026-04-23",
+    "index": 1964,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2026-04-24",
+    "index": 1965,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2026-04-27",
+    "index": 1966,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2026-04-28",
+    "index": 1967,
+    "regime": "neutral",
+    "conf": 0.5
+  },
+  {
+    "date": "2026-04-29",
+    "index": 1968,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2026-04-30",
+    "index": 1969,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2026-05-06",
+    "index": 1970,
+    "regime": "bull",
+    "conf": 0.625
+  },
+  {
+    "date": "2026-05-07",
+    "index": 1971,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2026-05-08",
+    "index": 1972,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2026-05-11",
+    "index": 1973,
+    "regime": "bull",
+    "conf": 0.8999999999999999
+  },
+  {
+    "date": "2026-05-12",
+    "index": 1974,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2026-05-13",
+    "index": 1975,
+    "regime": "bull",
+    "conf": 0.7250000000000001
+  },
+  {
+    "date": "2026-05-14",
+    "index": 1976,
+    "regime": "bull",
+    "conf": 0.6000000000000001
+  },
+  {
+    "date": "2026-05-15",
+    "index": 1977,
+    "regime": "neutral",
+    "conf": 0.47500000000000003
+  },
+  {
+    "date": "2026-05-18",
+    "index": 1978,
+    "regime": "bear",
+    "conf": 0.30000000000000004
+  },
+  {
+    "date": "2026-05-19",
+    "index": 1979,
+    "regime": "bear",
+    "conf": 0.30000000000000004
+  },
+  {
+    "date": "2026-05-20",
+    "index": 1980,
+    "regime": "bear",
+    "conf": 0.30000000000000004
+  },
+  {
+    "date": "2026-05-21",
+    "index": 1981,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2026-05-22",
+    "index": 1982,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2026-05-25",
+    "index": 1983,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2026-05-26",
+    "index": 1984,
+    "regime": "bear",
+    "conf": 0.30000000000000004
+  },
+  {
+    "date": "2026-05-27",
+    "index": 1985,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2026-05-28",
+    "index": 1986,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2026-05-29",
+    "index": 1987,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2026-06-01",
+    "index": 1988,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2026-06-02",
+    "index": 1989,
+    "regime": "bear",
+    "conf": 0.2
+  },
+  {
+    "date": "2026-06-03",
+    "index": 1990,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2026-06-04",
+    "index": 1991,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2026-06-05",
+    "index": 1992,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2026-06-08",
+    "index": 1993,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2026-06-09",
+    "index": 1994,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2026-06-10",
+    "index": 1995,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2026-06-11",
+    "index": 1996,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2026-06-12",
+    "index": 1997,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2026-06-15",
+    "index": 1998,
+    "regime": "bear",
+    "conf": 0.0
+  },
+  {
+    "date": "2026-06-16",
+    "index": 1999,
+    "regime": "bear",
+    "conf": 0.1
+  },
+  {
+    "date": "2026-06-17",
+    "index": 2000,
+    "regime": "bear",
+    "conf": 0.1
+  }
+]

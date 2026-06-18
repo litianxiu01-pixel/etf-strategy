@@ -1,0 +1,454 @@
+{
+  "timestamp": "2026-06-17T10:51:50.864990",
+  "round": 3,
+  "results": [
+    {
+      "config": "S3_Vol1.2x",
+      "composite": 92.1,
+      "metrics": {
+        "total_ret": 75.9,
+        "ann": 27.3,
+        "dd": 12.0,
+        "sharpe": 1.3,
+        "win_rate": 69.5,
+        "alpha": 44.2
+      },
+      "bench_total": 31.6,
+      "trades": 59,
+      "regime_stats": {
+        "bull": {
+          "count": 36,
+          "avg_ret": 1.5
+        },
+        "neutral": {
+          "count": 7,
+          "avg_ret": -0.52
+        },
+        "bear": {
+          "count": 31,
+          "avg_ret": 0.69
+        }
+      }
+    },
+    {
+      "config": "S5_RSImin40",
+      "composite": 87.8,
+      "metrics": {
+        "total_ret": 76.9,
+        "ann": 26.1,
+        "dd": 12.8,
+        "sharpe": 1.06,
+        "win_rate": 71.0,
+        "alpha": 47.9
+      },
+      "bench_total": 29.0,
+      "trades": 62,
+      "regime_stats": {
+        "bull": {
+          "count": 36,
+          "avg_ret": 1.08
+        },
+        "neutral": {
+          "count": 7,
+          "avg_ret": 0.92
+        },
+        "bear": {
+          "count": 31,
+          "avg_ret": 0.96
+        }
+      }
+    },
+    {
+      "config": "S8_Vol0.8x+RSImin40",
+      "composite": 82.7,
+      "metrics": {
+        "total_ret": 90.3,
+        "ann": 29.9,
+        "dd": 18.1,
+        "sharpe": 1.24,
+        "win_rate": 67.7,
+        "alpha": 61.3
+      },
+      "bench_total": 29.0,
+      "trades": 62,
+      "regime_stats": {
+        "bull": {
+          "count": 36,
+          "avg_ret": 1.52
+        },
+        "neutral": {
+          "count": 7,
+          "avg_ret": -0.35
+        },
+        "bear": {
+          "count": 31,
+          "avg_ret": 0.95
+        }
+      }
+    },
+    {
+      "config": "S10_Vol1.0x+DynPos",
+      "composite": 82.3,
+      "metrics": {
+        "total_ret": 65.4,
+        "ann": 23.1,
+        "dd": 15.8,
+        "sharpe": 1.11,
+        "win_rate": 62.3,
+        "alpha": 37.4
+      },
+      "bench_total": 28.0,
+      "trades": 61,
+      "regime_stats": {
+        "bull": {
+          "count": 36,
+          "avg_ret": 1.14
+        },
+        "neutral": {
+          "count": 7,
+          "avg_ret": -0.41
+        },
+        "bear": {
+          "count": 31,
+          "avg_ret": 0.94
+        }
+      }
+    },
+    {
+      "config": "S0_R6baseline",
+      "composite": 82.1,
+      "metrics": {
+        "total_ret": 71.6,
+        "ann": 24.5,
+        "dd": 15.4,
+        "sharpe": 1.0,
+        "win_rate": 69.4,
+        "alpha": 42.6
+      },
+      "bench_total": 29.0,
+      "trades": 62,
+      "regime_stats": {
+        "bull": {
+          "count": 36,
+          "avg_ret": 0.98
+        },
+        "neutral": {
+          "count": 7,
+          "avg_ret": 1.0
+        },
+        "bear": {
+          "count": 31,
+          "avg_ret": 0.96
+        }
+      }
+    },
+    {
+      "config": "S4_RSImin30",
+      "composite": 82.1,
+      "metrics": {
+        "total_ret": 71.6,
+        "ann": 24.5,
+        "dd": 15.4,
+        "sharpe": 1.0,
+        "win_rate": 69.4,
+        "alpha": 42.6
+      },
+      "bench_total": 29.0,
+      "trades": 62,
+      "regime_stats": {
+        "bull": {
+          "count": 36,
+          "avg_ret": 0.98
+        },
+        "neutral": {
+          "count": 7,
+          "avg_ret": 1.0
+        },
+        "bear": {
+          "count": 31,
+          "avg_ret": 0.96
+        }
+      }
+    },
+    {
+      "config": "S12_Premium",
+      "composite": 81.7,
+      "metrics": {
+        "total_ret": 88.7,
+        "ann": 29.4,
+        "dd": 18.1,
+        "sharpe": 1.23,
+        "win_rate": 62.9,
+        "alpha": 59.7
+      },
+      "bench_total": 29.0,
+      "trades": 62,
+      "regime_stats": {
+        "bull": {
+          "count": 36,
+          "avg_ret": 1.51
+        },
+        "neutral": {
+          "count": 7,
+          "avg_ret": -0.35
+        },
+        "bear": {
+          "count": 31,
+          "avg_ret": 0.92
+        }
+      }
+    },
+    {
+      "config": "S2_Vol1.0x",
+      "composite": 81.5,
+      "metrics": {
+        "total_ret": 74.5,
+        "ann": 25.8,
+        "dd": 17.4,
+        "sharpe": 1.14,
+        "win_rate": 63.9,
+        "alpha": 46.4
+      },
+      "bench_total": 28.0,
+      "trades": 61,
+      "regime_stats": {
+        "bull": {
+          "count": 36,
+          "avg_ret": 1.29
+        },
+        "neutral": {
+          "count": 7,
+          "avg_ret": -0.3
+        },
+        "bear": {
+          "count": 31,
+          "avg_ret": 0.94
+        }
+      }
+    },
+    {
+      "config": "S6_Vol1.0x+RSImin30",
+      "composite": 81.5,
+      "metrics": {
+        "total_ret": 74.5,
+        "ann": 25.8,
+        "dd": 17.4,
+        "sharpe": 1.14,
+        "win_rate": 63.9,
+        "alpha": 46.4
+      },
+      "bench_total": 28.0,
+      "trades": 61,
+      "regime_stats": {
+        "bull": {
+          "count": 36,
+          "avg_ret": 1.29
+        },
+        "neutral": {
+          "count": 7,
+          "avg_ret": -0.3
+        },
+        "bear": {
+          "count": 31,
+          "avg_ret": 0.94
+        }
+      }
+    },
+    {
+      "config": "S1_Vol0.8x",
+      "composite": 80.7,
+      "metrics": {
+        "total_ret": 80.5,
+        "ann": 27.1,
+        "dd": 18.1,
+        "sharpe": 1.16,
+        "win_rate": 62.9,
+        "alpha": 51.4
+      },
+      "bench_total": 29.0,
+      "trades": 62,
+      "regime_stats": {
+        "bull": {
+          "count": 36,
+          "avg_ret": 1.38
+        },
+        "neutral": {
+          "count": 7,
+          "avg_ret": -0.35
+        },
+        "bear": {
+          "count": 31,
+          "avg_ret": 0.93
+        }
+      }
+    },
+    {
+      "config": "S7_Vol0.8x+RSImin30",
+      "composite": 80.7,
+      "metrics": {
+        "total_ret": 80.5,
+        "ann": 27.1,
+        "dd": 18.1,
+        "sharpe": 1.16,
+        "win_rate": 62.9,
+        "alpha": 51.4
+      },
+      "bench_total": 29.0,
+      "trades": 62,
+      "regime_stats": {
+        "bull": {
+          "count": 36,
+          "avg_ret": 1.38
+        },
+        "neutral": {
+          "count": 7,
+          "avg_ret": -0.35
+        },
+        "bear": {
+          "count": 31,
+          "avg_ret": 0.93
+        }
+      }
+    },
+    {
+      "config": "S11_Vol0.8x+Trend",
+      "composite": 79.1,
+      "metrics": {
+        "total_ret": 71.2,
+        "ann": 24.4,
+        "dd": 18.1,
+        "sharpe": 1.09,
+        "win_rate": 62.9,
+        "alpha": 42.2
+      },
+      "bench_total": 29.0,
+      "trades": 62,
+      "regime_stats": {
+        "bull": {
+          "count": 36,
+          "avg_ret": 1.22
+        },
+        "neutral": {
+          "count": 7,
+          "avg_ret": -0.35
+        },
+        "bear": {
+          "count": 31,
+          "avg_ret": 0.93
+        }
+      }
+    },
+    {
+      "config": "S9_MA20gt60+DynPos",
+      "composite": 74.6,
+      "metrics": {
+        "total_ret": 51.0,
+        "ann": 18.2,
+        "dd": 14.7,
+        "sharpe": 0.82,
+        "win_rate": 67.7,
+        "alpha": 22.0
+      },
+      "bench_total": 29.0,
+      "trades": 62,
+      "regime_stats": {
+        "bull": {
+          "count": 36,
+          "avg_ret": 0.62
+        },
+        "neutral": {
+          "count": 7,
+          "avg_ret": 0.89
+        },
+        "bear": {
+          "count": 31,
+          "avg_ret": 0.96
+        }
+      }
+    },
+    {
+      "config": "S14_FullPack",
+      "composite": 54.7,
+      "metrics": {
+        "total_ret": 32.4,
+        "ann": 12.3,
+        "dd": 18.0,
+        "sharpe": 0.63,
+        "win_rate": 60.7,
+        "alpha": 4.4
+      },
+      "bench_total": 28.0,
+      "trades": 61,
+      "regime_stats": {
+        "bull": {
+          "count": 36,
+          "avg_ret": 0.67
+        },
+        "neutral": {
+          "count": 7,
+          "avg_ret": -0.46
+        },
+        "bear": {
+          "count": 31,
+          "avg_ret": 0.61
+        }
+      }
+    },
+    {
+      "config": "S13_RSI30to75",
+      "composite": 46.6,
+      "metrics": {
+        "total_ret": 18.6,
+        "ann": 7.2,
+        "dd": 15.0,
+        "sharpe": 0.36,
+        "win_rate": 66.1,
+        "alpha": -10.4
+      },
+      "bench_total": 29.0,
+      "trades": 62,
+      "regime_stats": {
+        "bull": {
+          "count": 36,
+          "avg_ret": 0.03
+        },
+        "neutral": {
+          "count": 7,
+          "avg_ret": 1.16
+        },
+        "bear": {
+          "count": 31,
+          "avg_ret": 0.64
+        }
+      }
+    }
+  ],
+  "best": {
+    "config": "S3_Vol1.2x",
+    "composite": 92.1,
+    "metrics": {
+      "total_ret": 75.9,
+      "ann": 27.3,
+      "dd": 12.0,
+      "sharpe": 1.3,
+      "win_rate": 69.5,
+      "alpha": 44.2
+    },
+    "bench_total": 31.6,
+    "trades": 59,
+    "regime_stats": {
+      "bull": {
+        "count": 36,
+        "avg_ret": 1.5
+      },
+      "neutral": {
+        "count": 7,
+        "avg_ret": -0.52
+      },
+      "bear": {
+        "count": 31,
+        "avg_ret": 0.69
+      }
+    }
+  }
+}
