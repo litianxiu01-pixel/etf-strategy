@@ -16,12 +16,13 @@ const path = require('path');
 // ─── 配置 ────────────────────────────────────────────────────────────────────
 
 const CONFIG = {
-  // 维度权重
+  // 维度权重 (v2: Step 1 新增 correlation)
   weights: {
-    trend:      0.35,  // 趋势结构
-    breadth:    0.25,  // 市场宽度
-    volatility: 0.20,  // 波动率体制
-    flow:       0.20,  // 量价关系
+    trend:       0.30,  // 趋势结构
+    breadth:     0.20,  // 市场宽度
+    volatility:  0.15,  // 波动率体制
+    flow:        0.15,  // 量价关系
+    correlation: 0.20,  // 股债相关性 (v2: Step 1)
   },
 
   // 滞后滤波阈值
@@ -37,6 +38,8 @@ const CONFIG = {
     short: 20,
     medium: 60,
     long: 120,
+    multiShort: 10,   // v2: Step 2 多时间尺度
+    multiMid: 40,     // v2: Step 2 多时间尺度
   },
 
   // 宽度阈值（动态 — 根据可用 ETF 数量调整比例）
@@ -75,20 +78,26 @@ function clamp(v, min, max) {
   return Math.max(min, Math.min(max, v));
 }
 
-// ─── 维度一：趋势结构（35%）──────────────────────────────────────────────────
+// ─── v2: Step 2 ─── 维度一：趋势结构（30%）多时间尺度 ─────────────
 
 function trendScore(prices) {
   if (prices.length < CONFIG.minHistory) return 0;
 
+  // 原始三档 MA
   const ma20  = sma(prices, CONFIG.ma.short);
   const ma60  = sma(prices, CONFIG.ma.medium);
   const ma120 = sma(prices, CONFIG.ma.long);
   if (ma20 === null || ma60 === null || ma120 === null) return 0;
 
+  // ─── v2: Step 2 ─── 多时间尺度 MA
+  const ma10 = sma(prices, CONFIG.ma.multiShort);  // 10
+  const ma40 = sma(prices, CONFIG.ma.multiMid);    // 40
+  if (ma10 === null || ma40 === null) return 0;
+
   let score = 0;
   const close = prices[prices.length - 1];
 
-  // 1. MA 排列结构（主导因子）
+  // 1. 原始 MA 排列结构（保留）
   if (ma20 > ma60 && ma60 > ma120) {
     score += 1.0;
   } else if (ma20 > ma60) {
@@ -99,13 +108,13 @@ function trendScore(prices) {
     score -= 0.5;
   }
 
-  // 2. 价格相对关键均线
+  // 2. 价格相对关键均线（保留）
   if (close > ma60)  score += 0.3;
   if (close > ma120) score += 0.3;
   if (close < ma60)  score -= 0.3;
   if (close < ma120) score -= 0.3;
 
-  // 3. 均线斜率（趋势加速度）
+  // 3. 原始均线斜率（保留）
   const ma20Prev = sma(prices.slice(0, -20), CONFIG.ma.short);
   if (ma20Prev !== null && ma20Prev > 0) {
     const slope = (ma20 - ma20Prev) / ma20Prev;
@@ -113,7 +122,39 @@ function trendScore(prices) {
     else if (slope < -0.02) score -= 0.2;
   }
 
-  return clamp(score, -1.5, 1.5);
+  // ─── v2: Step 2 ─── 三时区对比
+  const shortDir = ma10 > ma40 ? 1 : -1;  // 短线方向
+  const midDir   = ma20 > ma60 ? 1 : -1;  // 中线方向
+  const longDir  = ma40 > ma120 ? 1 : -1; // 长线方向
+
+  const sameDirection = (shortDir === midDir && midDir === longDir);
+  const shortUpMidLongDown = (shortDir === 1 && midDir === -1 && longDir === -1);
+  const shortDownMidLongUp = (shortDir === -1 && midDir === 1 && longDir === 1);
+
+  // 三线同向 → 信心加成
+  if (sameDirection) {
+    score += (shortDir === 1) ? 0.3 : -0.3;
+  }
+
+  // 短线 ↑ 但中线+长线 ↓ → 假信号削减
+  if (shortUpMidLongDown) {
+    score -= 0.3;
+  }
+
+  // 短线 ↓ 但中线+长线 ↑ → 正常回调
+  if (shortDownMidLongUp) {
+    score -= 0.2;
+  }
+
+  // ─── v2: Step 2 ─── MA10 斜率检测
+  const ma10Prev = sma(prices.slice(0, -10), CONFIG.ma.multiShort);
+  if (ma10Prev !== null && ma10Prev > 0) {
+    const ma10Slope = (ma10 - ma10Prev) / ma10Prev;
+    if (ma10Slope > 0.02)      score += 0.15;  // 正斜率 > 2%
+    else if (ma10Slope < -0.02) score -= 0.15;  // 负斜率 < -2%
+  }
+
+  return clamp(score, -2.0, 2.0);  // 扩大范围以容纳新增分数
 }
 
 // ─── 维度二：市场宽度（25%）──────────────────────────────────────────────────
@@ -228,6 +269,70 @@ function flowScore(prices, volumes) {
   return clamp(score, -1.0, 1.0);
 }
 
+// ─── v2: Step 1 ─── 维度五：股债相关性（20%）─────────────────────────────
+
+function pearsonCorrelation(x, y) {
+  // 计算 Pearson 相关系数
+  if (x.length !== y.length || x.length < 2) return null;
+  
+  const n = x.length;
+  const sumX = x.reduce((a, b) => a + b, 0);
+  const sumY = y.reduce((a, b) => a + b, 0);
+  const sumXY = x.reduce((s, xi, i) => s + xi * y[i], 0);
+  const sumX2 = x.reduce((s, xi) => s + xi * xi, 0);
+  const sumY2 = y.reduce((s, yi) => s + yi * yi, 0);
+  
+  const numerator = n * sumXY - sumX * sumY;
+  const denominator = Math.sqrt((n * sumX2 - sumX * sumX) * (n * sumY2 - sumY * sumY));
+  
+  if (denominator === 0) return null;
+  return numerator / denominator;
+}
+
+function correlationScore(hs300Prices, bondPrices) {
+  // hs300Prices: 沪深300 收盘价序列
+  // bondPrices:   国债 ETF 收盘价序列（511010 或 511180）
+  
+  // ─── v2: Step 1 ─── 无国债数据 fallback → 0.0
+  if (!bondPrices || bondPrices.length < 60) return 0.0;
+  if (hs300Prices.length < 60) return 0.0;
+  
+  // 计算日收益率
+  const hs300Returns = [];
+  for (let i = 1; i < hs300Prices.length; i++) {
+    hs300Returns.push((hs300Prices[i] - hs300Prices[i - 1]) / hs300Prices[i - 1]);
+  }
+  
+  const bondReturns = [];
+  for (let i = 1; i < bondPrices.length; i++) {
+    bondReturns.push((bondPrices[i] - bondPrices[i - 1]) / bondPrices[i - 1]);
+  }
+  
+  // 对齐长度，取最近 60 日
+  const minLen = Math.min(hs300Returns.length, bondReturns.length);
+  if (minLen < 60) return 0.0;
+  
+  const hs300Window = hs300Returns.slice(-60);
+  const bondWindow = bondReturns.slice(-60);
+  
+  const rho = pearsonCorrelation(hs300Window, bondWindow);
+  if (rho === null) return 0.0;
+  
+  // 得分映射
+  let score = 0.0;
+  if (rho > 0.6) {
+    score = -1.0;  // 极致正相关，资金枯竭
+  } else if (rho >= 0.3 && rho <= 0.6) {
+    score = -0.5;
+  } else if (rho >= -0.3 && rho <= 0.3) {
+    score = 0.0;
+  } else if (rho < -0.3) {
+    score = 0.5;   // 正常避险机制
+  }
+  
+  return score;
+}
+
 // ─── 滞后滤波 ────────────────────────────────────────────────────────────────
 
 function applyHysteresis(rawScore, prevRegime) {
@@ -248,11 +353,12 @@ function applyHysteresis(rawScore, prevRegime) {
   }
 }
 
-// ─── 主检测函数 ──────────────────────────────────────────────────────────────
+// ─── v2: Step 1 ─── 主检测函数 ─────────────────────────────────────────────
 
 function detectRegime(hs300Data, etfData, prevRegime = 'neutral') {
   // hs300Data: array of { date, close, volume, amount }
   // etfData:    { '159611': array of { date, close, volume }, ... }
+  // returns:    { regime, rawScore, confidence, breakdown, regime_type?, dimension_agreement? }
 
   const hs300Prices  = hs300Data.map(d => d.close);
   const hs300Volumes = hs300Data.map(d => d.volume);
@@ -263,64 +369,125 @@ function detectRegime(hs300Data, etfData, prevRegime = 'neutral') {
     etfCloses[code] = etfData[code].map(d => d.close);
   }
 
+  // ─── v2: Step 1 ─── 提取国债 ETF 价格（511010 优先，备选 511180）
+  let bondPrices = null;
+  if (etfCloses['511010']) {
+    bondPrices = etfCloses['511010'];
+  } else if (etfCloses['511180']) {
+    bondPrices = etfCloses['511180'];
+  }
+
   const trend      = trendScore(hs300Prices);
   const breadth    = breadthScore(etfCloses);
-  const volatility = volatilityScore(hs300Prices);
+  let   volatility = volatilityScore(hs300Prices);  // 可能被打折
   const flow       = flowScore(hs300Prices, hs300Volumes);
+  const correlation= correlationScore(hs300Prices, bondPrices);
+
+  // ─── v2: Step 1 ─── 极端正相关（ρ > 0.6）触发 volatility 打折
+  if (correlation <= -0.9) {  // correlationScore 返回 -1.0 时
+    volatility *= 0.7;  // 资金枯竭常伴低波假象
+  }
 
   const rawScore = (
     trend      * CONFIG.weights.trend +
     breadth    * CONFIG.weights.breadth +
     volatility * CONFIG.weights.volatility +
-    flow       * CONFIG.weights.flow
+    flow       * CONFIG.weights.flow +
+    correlation* CONFIG.weights.correlation
   );
 
   const regime = applyHysteresis(rawScore, prevRegime);
 
-  return {
+  // ─── v2: Step 3 ─── 一致性检查 + 过渡态标记
+  const dimensions = [trend, breadth, volatility, flow, correlation];
+  const positiveCount = dimensions.filter(d => d > 0).length;
+  const negativeCount = dimensions.filter(d => d < 0).length;
+  const agreementCount = Math.max(positiveCount, negativeCount);
+  const dimensionAgreement = agreementCount / dimensions.length;
+
+  let regimeType = 'mixed';
+  let confidenceDiscount = 1.0;
+  if (agreementCount >= 4) {
+    regimeType = 'pure';
+    confidenceDiscount = 1.0;
+  } else if (agreementCount >= 2) {
+    regimeType = 'transitional';
+    confidenceDiscount = 0.8;
+  } else {
+    regimeType = 'mixed';
+    confidenceDiscount = 0.7;
+  }
+
+  // ─── v2: Step 3 ─── BEAR 细分
+  let regimeSubtype = null;
+  if (regime === 'bear') {
+    if (negativeCount === 5 && breadth < 0.3) {
+      regimeSubtype = 'pure_bear';  // 真熊
+    } else {
+      regimeSubtype = 'transitional_bear';  // 震荡熊
+    }
+  }
+
+  const result = {
     regime,
     rawScore:     Math.round(rawScore * 1000) / 1000,
-    confidence:   Math.round(Math.abs(rawScore) * 1000) / 1000,
+    confidence:   Math.round(Math.abs(rawScore) * confidenceDiscount * 1000) / 1000,
+    regime_type: regimeType,
+    dimension_agreement: Math.round(dimensionAgreement * 1000) / 1000,
     breakdown: {
       trend:      Math.round(trend * 1000) / 1000,
       breadth:    Math.round(breadth * 1000) / 1000,
       volatility: Math.round(volatility * 1000) / 1000,
       flow:       Math.round(flow * 1000) / 1000,
+      correlation: Math.round(correlation * 1000) / 1000,  // v2: Step 1
     },
   };
+
+  if (regimeSubtype) {
+    result.regime_subtype = regimeSubtype;
+  }
+
+  return result;
 }
 
-// ─── 策略建议 ────────────────────────────────────────────────────────────────
+// ─── v2: Step 3 ─── 策略建议（适配 regime_type）─────────────────────
 
-function getRegimeSuggestion(regime) {
-  switch (regime) {
-    case 'bull':
-      return {
-        selectorMode: 'momentum',
-        maxPositions: 5,
-        stopLoss: 'loose',
-        cashReserve: 0.10,
-        description: '牛市 — 动量选最强，放宽止损，低现金'
-      };
-    case 'neutral':
-      return {
-        selectorMode: 'rule',
-        maxPositions: 3,
-        stopLoss: 'tight',
-        cashReserve: 0.30,
-        description: '震荡 — 多因子精选，严格止损，中现金'
-      };
-    case 'bear':
-      return {
-        selectorMode: 'defensive',
-        maxPositions: 2,
-        stopLoss: 'strict',
-        cashReserve: 0.50,
-        description: '熊市 — 防御优先，只选避险资产，高现金'
-      };
-    default:
-      return { selectorMode: 'rule', maxPositions: 3, stopLoss: 'tight', cashReserve: 0.30 };
+function getRegimeSuggestion(regime, regimeType = 'pure') {
+  // regimeType: "pure" | "transitional" | "mixed"
+  
+  const baseSuggestions = {
+    bull: {
+      selectorMode: 'momentum',
+      maxPositions: 5,
+      stopLoss: 'loose',
+      cashReserve: 0.10,
+      description: '牛市 — 动量选最强，放宽止损，低现金'
+    },
+    neutral: {
+      selectorMode: 'rule',
+      maxPositions: 3,
+      stopLoss: 'tight',
+      cashReserve: 0.30,
+      description: '震荡 — 多因子精选，严格止损，中现金'
+    },
+    bear: {
+      selectorMode: 'defensive',
+      maxPositions: 2,
+      stopLoss: 'strict',
+      cashReserve: 0.50,
+      description: '熊市 — 防御优先，只选避险资产，高现金'
+    }
+  };
+  
+  const suggestion = baseSuggestions[regime] || baseSuggestions.neutral;
+  
+  // ─── v2: Step 3 ─── transitional 时仓位上限 +1
+  if (regimeType === 'transitional') {
+    suggestion.maxPositions += 1;
+    suggestion.description += '（过渡态：允许试探性持仓 +1）';
   }
+  
+  return suggestion;
 }
 
 // ─── 滚动回测 ────────────────────────────────────────────────────────────────
@@ -334,16 +501,31 @@ function runBacktest(combinedData) {
   const etfAccum = {};
 
   for (const row of combinedData) {
-    // 累积沪深 300
-    hs300Accum.push({
-      date: row.date,
-      close: row.hs300.close,
-      volume: row.hs300.volume,
-      amount: row.hs300.amount,
-    });
+    // ─── v2: Step 1 ─── 兼容数据格式：优先使用 row.hs300，否则从 ETF 510300 提取
+    let hs300Record = null;
+    if (row.hs300 && row.hs300.close) {
+      hs300Record = {
+        date: row.date,
+        close: row.hs300.close,
+        volume: row.hs300.volume || 0,
+        amount: row.hs300.amount || 0,
+      };
+    } else if (row.etfs && row.etfs['510300'] && row.etfs['510300'].close) {
+      // 使用 510300 ETF 作为沪深300代理
+      hs300Record = {
+        date: row.date,
+        close: row.etfs['510300'].close,
+        volume: row.etfs['510300'].volume || 0,
+        amount: 0,
+      };
+    }
+
+    if (hs300Record) {
+      hs300Accum.push(hs300Record);
+    }
 
     // 累积 ETF
-    for (const code of Object.keys(row.etfs)) {
+    for (const code of Object.keys(row.etfs || {})) {
       if (!etfAccum[code]) etfAccum[code] = [];
       etfAccum[code].push({
         date: row.date,
@@ -359,7 +541,9 @@ function runBacktest(combinedData) {
         regime: 'insufficient_data',
         rawScore: 0,
         confidence: 0,
-        breakdown: { trend: 0, breadth: 0, volatility: 0, flow: 0 },
+        regime_type: 'mixed',
+        dimension_agreement: 0,
+        breakdown: { trend: 0, breadth: 0, volatility: 0, flow: 0, correlation: 0 },
         suggestion: null,
       });
       continue;
@@ -368,11 +552,12 @@ function runBacktest(combinedData) {
     const result = detectRegime(hs300Accum, etfAccum, prevRegime);
     prevRegime = result.regime;
 
+    // ─── v2: Step 3 ─── 确保新增字段每次迭代都有值
     results.push({
       date: row.date,
       ...result,
       nEtfs: Object.keys(row.etfs).length,
-      suggestion: getRegimeSuggestion(result.regime),
+      suggestion: getRegimeSuggestion(result.regime, result.regime_type),  // 传入 regime_type
     });
   }
 
@@ -486,7 +671,8 @@ function recentSwitches(results, n = 20) {
 // ─── CLI 入口 ────────────────────────────────────────────────────────────────
 
 function main() {
-  const dataPath = path.join(__dirname, '..', 'data', 'market_regime', 'combined_daily.json');
+  // ─── v2: Step 1 ─── 数据路径修正（去掉 market_regime 子目录）
+  const dataPath = path.join(__dirname, '..', 'data', 'combined_daily.json');
 
   if (!fs.existsSync(dataPath)) {
     console.error(`Data not found: ${dataPath}`);
@@ -497,10 +683,16 @@ function main() {
   const combinedData = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
   console.error(`Loaded ${combinedData.length} daily records`);
 
+  const arg = process.argv[2];
+
+  // ─── v2: Step 1 ─── 新增测试入口：--diagnose
+  if (arg === '--diagnose') {
+    diagnose(combinedData);
+    return;
+  }
+
   const results = runBacktest(combinedData);
   const summary = summarize(results);
-
-  const arg = process.argv[2];
 
   if (arg === '--latest') {
     const last = results[results.length - 1];
@@ -529,6 +721,99 @@ function main() {
   };
 
   console.log(JSON.stringify(output, null, 2));
+}
+
+// ─── v2: Step 1 ─── 诊断函数：输出每个维度的原始值和同向性 ────────────
+
+function diagnose(combinedData) {
+  console.log('=== Regime Detector v2 Diagnostics ===');
+  console.log('');
+  
+  // ─── v2: Step 1 ─── 兼容数据格式
+  const hs300Data = [];
+  for (const row of combinedData) {
+    if (row.hs300 && row.hs300.close) {
+      hs300Data.push({
+        date: row.date,
+        close: row.hs300.close,
+        volume: row.hs300.volume || 0,
+        amount: row.hs300.amount || 0,
+      });
+    } else if (row.etfs && row.etfs['510300'] && row.etfs['510300'].close) {
+      hs300Data.push({
+        date: row.date,
+        close: row.etfs['510300'].close,
+        volume: row.etfs['510300'].volume || 0,
+        amount: 0,
+      });
+    }
+  }
+  const etfData = {};
+  for (const row of combinedData) {
+    for (const code of Object.keys(row.etfs)) {
+      if (!etfData[code]) etfData[code] = [];
+      etfData[code].push({
+        date: row.date,
+        close: row.etfs[code].close,
+        volume: row.etfs[code].volume,
+      });
+    }
+  }
+  
+  // 提取国债 ETF
+  let bondPrices = null;
+  if (etfData['511010']) bondPrices = etfData['511010'].map(d => d.close);
+  else if (etfData['511180']) bondPrices = etfData['511180'].map(d => d.close);
+  
+  const hs300Prices = hs300Data.map(d => d.close);
+  const hs300Volumes = hs300Data.map(d => d.volume);
+  
+  const etfCloses = {};
+  for (const code of Object.keys(etfData)) {
+    etfCloses[code] = etfData[code].map(d => d.close);
+  }
+  
+  console.log('Sample Date: ' + hs300Data[hs300Data.length - 1].date);
+  console.log('');
+  
+  const trend      = trendScore(hs300Prices);
+  const breadth    = breadthScore(etfCloses);
+  const volatility = volatilityScore(hs300Prices);
+  const flow       = flowScore(hs300Prices, hs300Volumes);
+  const correlation= correlationScore(hs300Prices, bondPrices);
+  
+  console.log('--- Dimension Scores ---');
+  console.log('trend:      ' + trend.toFixed(3));
+  console.log('breadth:    ' + breadth.toFixed(3));
+  console.log('volatility: ' + volatility.toFixed(3));
+  console.log('flow:       ' + flow.toFixed(3));
+  console.log('correlation:' + correlation.toFixed(3));
+  console.log('');
+  
+  const dimensions = [trend, breadth, volatility, flow, correlation];
+  const positiveCount = dimensions.filter(d => d > 0).length;
+  const negativeCount = dimensions.filter(d => d < 0).length;
+  const agreementCount = Math.max(positiveCount, negativeCount);
+  const agreement = agreementCount / dimensions.length;
+  
+  console.log('--- Agreement Analysis ---');
+  console.log('Positive dimensions: ' + positiveCount);
+  console.log('Negative dimensions: ' + negativeCount);
+  console.log('Agreement count:     ' + agreementCount + '/5');
+  console.log('Dimension agreement:  ' + agreement.toFixed(3));
+  console.log('');
+  
+  console.log('--- Regime Type Prediction ---');
+  if (agreementCount >= 4) console.log('regime_type: pure');
+  else if (agreementCount >= 2) console.log('regime_type: transitional');
+  else console.log('regime_type: mixed');
+  console.log('');
+  
+  if (bondPrices) {
+    console.log('Bond ETF detected: ' + (etfData['511010'] ? '511010' : '511180'));
+  } else {
+    console.log('No bond ETF data (511010/511180) — correlation score = 0.0');
+  }
 }
 
 main();
