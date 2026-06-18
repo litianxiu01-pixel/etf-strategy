@@ -7,7 +7,7 @@ import json, os, math
 import numpy as np
 from collections import defaultdict, OrderedDict
 
-DATA_DIR = os.path.expanduser("~/.qclaw/workspace-main/data/market_regime")
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 
 _combined = None
 _universe = None
@@ -16,9 +16,9 @@ _dates_all = None
 def _load():
     global _combined, _universe, _dates_all
     if _combined is None:
-        with open(f"{DATA_DIR}/combined_daily.json") as f:
+        with open(os.path.join(DATA_DIR, "combined_daily.json")) as f:
             _combined = json.load(f)
-        with open(f"{DATA_DIR}/etf_universe.json") as f:
+        with open(os.path.join(DATA_DIR, "etf_universe.json")) as f:
             _universe = json.load(f)
         _dates_all = [row['date'] for row in _combined]
     return _combined, _universe, _dates_all
@@ -173,10 +173,9 @@ def select_at(idx, regime, conf, config, ma20_ratio=None):
     
     candidates.sort(key=lambda x: x['score'], reverse=True)
     
-    # bear 体制防御资产 MA20 > MA60 过滤器
+    # 原始逻辑：bear 体制只选 MA20>MA60 的防御资产，无 fallback
     if regime == 'bear':
         ma_passed = []
-        ma_failed = []
         for cand in candidates:
             closes = get_closes(cand['code'], idx, 120)
             if len(closes) >= 60:
@@ -184,18 +183,7 @@ def select_at(idx, regime, conf, config, ma20_ratio=None):
                 ma60 = np.mean(closes[-60:])
                 if ma20 > ma60:
                     ma_passed.append(cand)
-                else:
-                    cand['_ma_ratio'] = ma20 / ma60  # 用于 fallback 排序
-                    ma_failed.append(cand)
-        
-        # 如果没有通过 MA 过滤的防御资产，fallback 到最接近金叉的
-        if not ma_passed and ma_failed:
-            ma_failed.sort(key=lambda x: x['_ma_ratio'], reverse=True)
-            candidates = ma_failed[:1]
-        elif ma_passed:
-            candidates = ma_passed
-        else:
-            candidates = []  # 无防御资产可用
+        candidates = ma_passed if ma_passed else []
     
     mp = config.get('max_positions', {'bull':5,'neutral':3,'bear':2})
     n_base = mp.get(regime, 3)

@@ -1,11 +1,11 @@
 {
   "version": "2.0",
-  "verified_at": "2026-06-17 22:01:02",
-  "input_fingerprint": "3618e4ccdad355e8421355ea1c3c84246b14709854e57b309516e7f5d11d1489",
+  "verified_at": "2026-06-18 21:29:59",
+  "input_fingerprint": "aa1a3e2981e9447e723dc0d0ba2b80d7ba96111ccd72f698ed1b9709cd415b28",
   "input_hashes": {
     "combined_daily": "e9476a1a37839ef5c00e0d51beef251bae3633cb72113e2536918376705d4b83",
     "etf_universe": "4745f4bed663f1e860148713394fa3dc15f556f9238db799e24ef9d21e5f94ad",
-    "u7_strategy": "ddc0b33ded61aff2ab1e76f673b24aac2cf7432a4fde62e20313a872ff2e472e"
+    "u7_strategy": "d4d6f569c9d7ec62cb2a29ab20b9e7e09ec31ecc6d26ab52c31d9593034830a0"
   },
   "config": {
     "hold_days": 20,
@@ -31,27 +31,27 @@
     "exit_rules": "pure_rebalance",
     "disaster_exit_pct": -12
   },
-  "output_signature": "6f9c6d17121c6b88648392004b2cd463e563d8bafb9661a7be7d72b577b5cf98",
-  "trade_ledger_hash": "752709a71b86c8a5b52f2cf59a86b3139162a67a03d68a968f60d0c96aacade7",
+  "output_signature": "7d6b7c5e2ab67044e7fe976fe7c37059b09e1147b32dbc701167e106f51da611",
+  "trade_ledger_hash": "9fa14fad37e774d0f303213c7c2701a869f3daaa4878cccba30aab842da3c05d",
   "metrics_active": {
-    "total_ret": 163.5,
-    "ann": 63.0,
+    "total_ret": 181.1,
+    "ann": 65.0,
     "dd": 9.7,
-    "sharpe": 1.55,
-    "win_rate": 72.0,
-    "active_windows": 25,
+    "sharpe": 1.61,
+    "win_rate": 73.1,
+    "active_windows": 26,
     "total_windows": 37,
-    "alpha": 146.0
+    "alpha": 163.6
   },
   "metrics_calendar": {
-    "total_ret": 163.5,
-    "ann": 39.1,
+    "total_ret": 181.1,
+    "ann": 42.2,
     "dd": 9.7,
-    "sharpe": 1.21,
-    "win_rate": 48.6,
-    "active_windows": 25,
+    "sharpe": 1.29,
+    "win_rate": 51.4,
+    "active_windows": 26,
     "total_windows": 37,
-    "alpha": 146.0
+    "alpha": 163.6
   },
   "bench_total": 17.5,
   "regime_counts": {
@@ -59,7 +59,7 @@
     "bull": 16,
     "neutral": 5
   },
-  "trade_count": 25,
+  "trade_count": 26,
   "total_windows": 37,
   "trade_ledger": [
     {
@@ -177,8 +177,20 @@
       "date": "2024-01-24",
       "regime": "bear",
       "conf": 0.1,
-      "avg_return": 0,
-      "trades": []
+      "avg_return": 5.85,
+      "trades": [
+        {
+          "code": "513500",
+          "name": "标普500ETF博时",
+          "sector": "其他",
+          "entry_date": "2024-01-24",
+          "entry_price": 1.674,
+          "score": 15.442166077998532,
+          "exit_date": "2024-02-29",
+          "exit_price": 1.772,
+          "ret": 5.85
+        }
+      ]
     },
     {
       "window": 9,
@@ -297,8 +309,19 @@
       "date": "2024-06-28",
       "regime": "bear",
       "conf": 0.1,
-      "avg_return": 0.5,
+      "avg_return": -0.87,
       "trades": [
+        {
+          "code": "513500",
+          "name": "标普500ETF博时",
+          "sector": "其他",
+          "entry_date": "2024-06-28",
+          "entry_price": 1.971,
+          "score": 4.299288858151375,
+          "exit_date": "2024-07-26",
+          "exit_price": 1.927,
+          "ret": -2.23
+        },
         {
           "code": "511010",
           "name": "国债ETF国泰",
@@ -832,8 +855,19 @@
       "date": "2025-11-21",
       "regime": "bear",
       "conf": 0.28,
-      "avg_return": -0.24,
+      "avg_return": 1.92,
       "trades": [
+        {
+          "code": "513500",
+          "name": "标普500ETF博时",
+          "sector": "其他",
+          "entry_date": "2025-11-21",
+          "entry_price": 2.355,
+          "score": 4.073245569663793,
+          "exit_date": "2025-12-19",
+          "exit_price": 2.451,
+          "ret": 4.08
+        },
         {
           "code": "511180",
           "name": "可转债ETF海富通",

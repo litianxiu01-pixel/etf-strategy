@@ -18,7 +18,7 @@ from u7_strategy import (
     DEF_GOLD, DEF_BOND, US_CODES, HK_CODES,
 )
 
-DATA_DIR = os.path.expanduser("~/.qclaw/workspace-main/data/market_regime")
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 
 STRATEGY_VERSION = "U7_CalendarV3_H20"
 HOLD_DAYS = U7_CALENDAR_V3_H20_CONFIG['hold_days']

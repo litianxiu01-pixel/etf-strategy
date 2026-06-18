@@ -13,9 +13,10 @@ import json, os, sys, math, time, copy
 import numpy as np
 from collections import defaultdict
 
-WORKSPACE = os.path.expanduser("~/.qclaw/workspace-main")
-DATA_DIR = os.path.join(WORKSPACE, "data/market_regime")
-sys.path.insert(0, os.path.join(WORKSPACE, "scripts"))
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(REPO_ROOT, "data")
+CORE_DIR = os.path.join(REPO_ROOT, "core")
+sys.path.insert(0, CORE_DIR)
 from u7_strategy import (
     _load, etf_sector, get_closes, detect_regime_at, select_at,
     make_config, SECTOR_RULES, DEF_GOLD, DEF_BOND, US_CODES, HK_CODES,

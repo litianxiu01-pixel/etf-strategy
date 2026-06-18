@@ -11,8 +11,9 @@ import json, os, sys, hashlib
 from datetime import datetime
 
 # ═══ 1. 冻结输入 ═══
-WORKSPACE = os.path.expanduser("~/.qclaw/workspace-main")
-DATA_DIR = os.path.join(WORKSPACE, "data/market_regime")
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(REPO_ROOT, "data")
+CORE_DIR = os.path.join(REPO_ROOT, "core")
 
 def sha256_file(path):
     with open(path, 'rb') as f:
@@ -33,7 +34,7 @@ def sha256_list_of_dicts(lst):
 # 输入文件
 data_path = os.path.join(DATA_DIR, "combined_daily.json")
 universe_path = os.path.join(DATA_DIR, "etf_universe.json")
-strategy_path = os.path.join(WORKSPACE, "scripts/u7_strategy.py")
+strategy_path = os.path.join(CORE_DIR, "u7_strategy.py")
 
 INPUT = {
     "combined_daily": sha256_file(data_path),
@@ -43,7 +44,7 @@ INPUT = {
 INPUT_FINGERPRINT = sha256_json(INPUT)
 
 # ═══ 2. 运行回测 ═══
-sys.path.insert(0, os.path.join(WORKSPACE, "scripts"))
+sys.path.insert(0, CORE_DIR)
 from u7_strategy import run_backtest, U7_CALENDAR_V3_H20_CONFIG
 
 result = run_backtest(U7_CALENDAR_V3_H20_CONFIG)

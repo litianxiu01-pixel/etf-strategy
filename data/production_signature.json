@@ -1,11 +1,11 @@
 {
-  "signature": "e3e937da0aeeb8a1",
+  "signature": "ba67563bf99cedd2",
   "payload": {
     "input_manifest": {
       "combined_daily": "e9476a1a37839ef5c00e0d51beef251bae3633cb72113e2536918376705d4b83",
       "etf_universe": "4745f4bed663f1e860148713394fa3dc15f556f9238db799e24ef9d21e5f94ad",
-      "u7_strategy": "464b8b98724021cbc9c58256ee6c7a011bf35a989b8cc110eb2f3a07231ffa4e",
-      "u7_v3_exit_rules": "915782fb98d162388da9fa83898c824208788bf7e44b5b3be2e1dd61c979f9d2"
+      "u7_strategy": "b15eb89ac78d0b9fa245a8483aa1440c569edc994a033841b1e2f2aa8b2b228a",
+      "u7_v3_exit_rules": "e0d8cc9a7d6ca2b55a78942d3ce13bba152ace0847422cbe4826c0ba6830bb14"
     },
     "strategy": "U7_CalendarV3_H20",
     "params": {

@@ -3,11 +3,6 @@
 > 验证时间: 2026-06-18 21:29:59
 > 输入指纹: `aa1a3e2981e9447e...`
 > 输出签名: `7d6b7c5e2ab67044...`
-> 生产签名: `ba67563bf99cedd2`（详见 [PRODUCTION.md](../PRODUCTION.md)）
-
-## 历史版本说明
-- `6f9c6d17121c6b88...` 等旧签名已归档为 📜 历史版本，不再代表当前生产状态。
-- 当前报告使用仓库自包含路径重新验证后生成，签名与旧报告不同。
 
 ## 输入哈希
 | 文件 | SHA256 |
@@ -29,7 +24,7 @@
 
 | 指标 | 口径A (有持仓) | 口径B (日历) |
 |------|:---:|:---:|
-| 窗口数 | 26 / 37 | 37 / 37 |
+| 窗口数 | 48 / 74 | 74 / 74 |
 | 累计收益 | +181.1% | +181.1% |
 | 年化收益 | +65.0% | +42.2% |
 | 最大回撤 | 9.7% | 9.7% |
@@ -38,24 +33,24 @@
 | 超额 α | +163.6% | +163.6% |
 
 ## 市场体制分布
-- bear: 16 窗 (43%)
-- bull: 16 窗 (43%)
-- neutral: 5 窗 (14%)
+- bear: 16 窗 (22%)
+- bull: 16 窗 (22%)
+- neutral: 5 窗 (7%)
 
 ## 审计方法
 ```bash
 # 1. 确认输入未变
-sha256sum data/combined_daily.json
-sha256sum data/etf_universe.json
-sha256sum core/u7_strategy.py
+sha256sum data/market_regime/combined_daily.json
+sha256sum data/market_regime/etf_universe.json
+sha256sum scripts/u7_strategy.py
 
 # 2. 重新运行
-python3 core/backtest_verify.py
+python3 scripts/backtest_verify.py
 
 # 3. 对比输出签名
 python3 -c "
 import json
-r = json.load(open('data/backtest_verified.json'))
+r = json.load(open('data/market_regime/backtest_verified.json'))
 print(r['output_signature'])
 "
 ```

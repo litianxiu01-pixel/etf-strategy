@@ -13,9 +13,11 @@ from u7_strategy import (
     U7_CALENDAR_V3_H20_CONFIG,
     _load, select_at, detect_regime_at, etf_sector,
 )
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(REPO_ROOT, "data")
+BACKTEST_DIR = os.path.join(REPO_ROOT, "backtest")
+sys.path.insert(0, BACKTEST_DIR)
 from u7_v3_exit_rules import PortfolioSim
-
-DATA_DIR = os.path.expanduser("~/.qclaw/workspace-main/data/market_regime")
 
 print("═" * 70)
 print("🔬 U7_CalendarV3_H20 生产验证")
@@ -122,11 +124,12 @@ def sha256_file(path):
     with open(path, 'rb') as f:
         return hashlib.sha256(f.read()).hexdigest()
 
+CORE_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_MANIFEST = {
-    'combined_daily': sha256_file(f"{DATA_DIR}/combined_daily.json"),
-    'etf_universe': sha256_file(f"{DATA_DIR}/etf_universe.json"),
-    'u7_strategy': sha256_file(os.path.dirname(os.path.abspath(__file__)) + '/u7_strategy.py'),
-    'u7_v3_exit_rules': sha256_file(os.path.dirname(os.path.abspath(__file__)) + '/u7_v3_exit_rules.py'),
+    'combined_daily': sha256_file(os.path.join(DATA_DIR, "combined_daily.json")),
+    'etf_universe': sha256_file(os.path.join(DATA_DIR, "etf_universe.json")),
+    'u7_strategy': sha256_file(os.path.join(CORE_DIR, "u7_strategy.py")),
+    'u7_v3_exit_rules': sha256_file(os.path.join(BACKTEST_DIR, "u7_v3_exit_rules.py")),
 }
 
 # 签名载体 = 输入指纹 + 交易日级指标 + 窗口级指标（不含 timestamp）

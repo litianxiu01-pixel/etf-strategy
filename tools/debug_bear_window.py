@@ -2,8 +2,10 @@
 """
 调试 bear 体制下为什么某些窗口选中 0 只资产
 """
-import sys
-sys.path.insert(0, '/Users/lx/.qclaw/workspace-main/scripts')
+import sys, os
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CORE_DIR = os.path.join(REPO_ROOT, 'core')
+sys.path.insert(0, CORE_DIR)
 
 from u7_strategy import detect_regime_at, select_at, U7_CALENDAR_V3_H20_CONFIG, _load, get_closes, etf_sector
 import numpy as np
